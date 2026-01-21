@@ -250,9 +250,10 @@ const getDefaultWeight = (product: Product, preferredWeight = '450g'): string =>
 type ProductCardProps = {
   product: Product;
   onAddToCart: (e: React.MouseEvent, productId: number) => void;
+  priority?: boolean;
 };
 
-function ProductCard({ product, onAddToCart }: ProductCardProps) {
+function ProductCard({ product, onAddToCart, priority = false }: ProductCardProps) {
   const { toggleFavorite, isFavorite, favorites } = useFavorites();
   const [isLiked, setIsLiked] = useState(false);
   const [isToggling, setIsToggling] = useState(false);
@@ -313,7 +314,8 @@ function ProductCard({ product, onAddToCart }: ProductCardProps) {
           fill
           className="object-cover group-hover:scale-110 transition-transform duration-500"
           sizes="320px"
-          loading="lazy"
+          priority={priority}
+          loading={priority ? undefined : 'lazy'}
         />
 
         {/* Heart Icon - Top Right */}
