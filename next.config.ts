@@ -7,7 +7,9 @@ const nextConfig: NextConfig = {
   // Image optimization configuration
   images: {
     formats: ['image/avif', 'image/webp'],
-    unoptimized: false,
+    // Disable image optimization for Render deployment
+    // Render doesn't support Next.js image optimization out of the box
+    unoptimized: process.env.NODE_ENV === 'production',
     remotePatterns: [
       // Add remote image domains here if needed
       // {
