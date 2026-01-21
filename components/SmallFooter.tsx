@@ -19,6 +19,7 @@ export default function SmallFooter() {
                 width={260}
                 height={75}
                 className="h-16 w-auto object-contain"
+                loading="lazy"
                 style={{ filter: 'brightness(0) invert(1)' }}
               />
             </div>

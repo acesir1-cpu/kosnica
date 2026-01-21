@@ -544,6 +544,7 @@ export default function ChatWidget() {
                             width={40}
                             height={40}
                             className="object-cover w-full h-full"
+                            loading="lazy"
                           />
                         </div>
                         <div className="flex-1 min-w-0">
@@ -719,6 +720,7 @@ export default function ChatWidget() {
                                 width={48}
                                 height={48}
                                 className="object-cover w-full h-full"
+                                loading="lazy"
                               />
                             </div>
                             {chat.unreadCount > 0 && (
@@ -843,6 +845,7 @@ export default function ChatWidget() {
                               width={48}
                               height={48}
                               className="object-cover w-full h-full"
+                              loading="lazy"
                             />
                           </div>
                           <div className="flex-1 min-w-0">
@@ -925,6 +928,7 @@ export default function ChatWidget() {
                               width={80}
                               height={80}
                               className="object-cover w-full h-full"
+                              loading="lazy"
                             />
                           </div>
                           <p
@@ -969,6 +973,7 @@ export default function ChatWidget() {
                                 width={32}
                                 height={32}
                                 className="object-cover w-full h-full"
+                                loading="lazy"
                               />
                             </div>
                           )}
@@ -1030,6 +1035,7 @@ export default function ChatWidget() {
                           width={32}
                           height={32}
                           className="object-cover w-full h-full"
+                          loading="lazy"
                         />
                       </div>
                       <div

@@ -122,6 +122,7 @@ export default function BlogPostPage() {
                 fill
                 className="object-cover"
                 sizes="48px"
+                loading="lazy"
               />
             </div>
             <div>

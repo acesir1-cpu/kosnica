@@ -249,6 +249,8 @@ export default function CustomerTestimonials() {
                       alt={currentTestimonial.name}
                       fill
                       className="object-cover"
+                      loading="lazy"
+                      sizes="(max-width: 768px) 100vw, 400px"
                     />
                   </div>
 

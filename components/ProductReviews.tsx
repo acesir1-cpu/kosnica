@@ -1595,6 +1595,7 @@ export default function ProductReviews({ productId }: ProductReviewsProps) {
                   fill
                   className="object-cover"
                   sizes="48px"
+                  loading="lazy"
                   onError={(e) => {
                     // Fallback to default avatar if image doesn't exist
                     e.currentTarget.src = '/images/reviewers/default.jpg';
@@ -1994,6 +1995,7 @@ export default function ProductReviews({ productId }: ProductReviewsProps) {
                             fill
                             className="object-cover"
                             sizes="48px"
+                            loading="lazy"
                             onError={(e) => {
                               e.currentTarget.src = '/images/reviewers/default.jpg';
                             }}

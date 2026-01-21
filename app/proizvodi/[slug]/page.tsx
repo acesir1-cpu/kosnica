@@ -269,6 +269,7 @@ export default function ProductDetailPage() {
                       fill
                       className="object-cover"
                       sizes="64px"
+                      loading="lazy"
                     />
                     {selectedImageIndex === index && (
                       <div className="absolute inset-0 border-2 rounded-md" style={{ borderColor: 'var(--honey-gold)' }} />

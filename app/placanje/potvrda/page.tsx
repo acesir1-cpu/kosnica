@@ -282,6 +282,7 @@ function OrderConfirmationPageContent() {
                             fill
                             className="object-cover"
                             sizes="80px"
+                            loading="lazy"
                           />
                         </Link>
                       )}

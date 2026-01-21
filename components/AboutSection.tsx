@@ -88,6 +88,8 @@ export default function AboutSection() {
                     fill
                     className="object-cover"
                     style={{ objectPosition: 'center center' }}
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </div>
               </div>

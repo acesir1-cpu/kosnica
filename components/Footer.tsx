@@ -19,6 +19,7 @@ export default function Footer() {
                 width={300}
                 height={90}
                 className="h-20 w-auto object-contain"
+                loading="lazy"
                 style={{ filter: 'brightness(0) invert(1)' }}
               />
             </div>

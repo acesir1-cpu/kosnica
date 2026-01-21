@@ -328,6 +328,7 @@ export default function CartPage() {
                           fill
                           className="object-cover"
                           sizes="96px"
+                          loading="lazy"
                         />
                       </Link>
 

@@ -1096,6 +1096,7 @@ function ProfilePageContent() {
                         width={96}
                         height={96}
                         className="object-cover w-full h-full"
+                        loading="lazy"
                       />
                     ) : (
                       <div
@@ -2828,6 +2829,7 @@ function ProfilePageContent() {
                                           width={64}
                                           height={64}
                                           className="object-cover w-full h-full"
+                                          loading="lazy"
                                         />
                                       </div>
                                     </div>
@@ -4795,6 +4797,7 @@ function ProfilePageContent() {
                                 width={80}
                                 height={80}
                                 className="object-cover w-full h-full"
+                                loading="lazy"
                               />
                             </div>
                           </Link>

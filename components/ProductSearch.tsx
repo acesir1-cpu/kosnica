@@ -276,6 +276,7 @@ export default function ProductSearch({ onSearch }: ProductSearchProps) {
                     fill
                     className="object-cover"
                     sizes="56px"
+                    loading="lazy"
                   />
                 </div>
                 {/* Product Info */}
