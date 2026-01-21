@@ -184,7 +184,7 @@ export default function Header() {
           title: beekeeper.name,
           slug: beekeeper.slug,
           description: `Pčelar iz ${beekeeper.location}`,
-          image: beekeeper.image,
+          image: beekeeper.avatar,
           href: `/pcelari/${beekeeper.slug}`,
           score,
           matchedField,
