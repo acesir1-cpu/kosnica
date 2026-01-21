@@ -14,6 +14,7 @@ type FilterState = {
   minRating: number | null;
   locations: string[];
   badges: string[];
+  onDiscount: boolean | null;
 };
 
 type ProductFiltersProps = {
