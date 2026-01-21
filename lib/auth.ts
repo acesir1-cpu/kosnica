@@ -29,9 +29,10 @@ export async function verifyPassword(password: string, hash: string): Promise<bo
  * Generate a JWT token
  */
 export function generateToken(payload: TokenPayload): string {
+  // JWT_EXPIRES_IN is a string like "7d", which is valid for jsonwebtoken
   return jwt.sign(payload, JWT_SECRET, {
-    expiresIn: JWT_EXPIRES_IN as string | number,
-  });
+    expiresIn: JWT_EXPIRES_IN,
+  } as jwt.SignOptions);
 }
 
 /**

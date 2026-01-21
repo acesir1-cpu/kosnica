@@ -17,7 +17,7 @@ const MAX_REQUESTS = 5; // Max 5 requests per window
  * Rate limiting middleware
  */
 export function rateLimit(request: NextRequest): NextResponse | null {
-  const ip = request.ip || request.headers.get('x-forwarded-for') || 'unknown';
+  const ip = request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'unknown';
   const now = Date.now();
   const key = `rate_limit_${ip}`;
 
