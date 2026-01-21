@@ -729,7 +729,6 @@ export default function ProductReviews({ productId }: ProductReviewsProps) {
                     authorId: r.authorId,
                     author: r.author,
                     comment: r.comment,
-                    rating: r.rating,
                     createdAt: r.createdAt,
                     avatar: '/images/reviewers/recenzija (1).jpg', // Always use placeholder
                     replies: r.replies?.map(rep => ({
