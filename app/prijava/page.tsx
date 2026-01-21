@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -9,7 +9,7 @@ import { useAuth } from '@/hooks/useAuth';
 import { useToastContext } from '@/components/ToastProvider';
 import { ROUTES } from '@/config/constants';
 
-export default function LoginPage() {
+function LoginPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { login, isAuthenticated } = useAuth();
@@ -344,5 +344,20 @@ export default function LoginPage() {
 
       <Footer />
     </div>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[var(--honey-gold)] mx-auto mb-4"></div>
+          <p style={{ color: 'var(--body-text)', fontFamily: 'var(--font-inter)' }}>Učitavanje...</p>
+        </div>
+      </div>
+    }>
+      <LoginPageContent />
+    </Suspense>
   );
 }

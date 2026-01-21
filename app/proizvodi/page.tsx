@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
+import { useState, useMemo, useEffect, useCallback, useRef, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ProductSearch from '@/components/ProductSearch';
@@ -27,7 +27,7 @@ type FilterState = {
   onDiscount: boolean | null;
 };
 
-export default function ProductsPage() {
+function ProductsPageContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   
@@ -592,5 +592,20 @@ export default function ProductsPage() {
       </div>
       <Footer />
     </div>
+  );
+}
+
+export default function ProductsPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[var(--honey-gold)] mx-auto mb-4"></div>
+          <p style={{ color: 'var(--body-text)', fontFamily: 'var(--font-inter)' }}>Učitavanje...</p>
+        </div>
+      </div>
+    }>
+      <ProductsPageContent />
+    </Suspense>
   );
 }

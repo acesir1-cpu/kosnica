@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -40,7 +40,7 @@ type Order = {
   discount?: number;
 };
 
-export default function OrderConfirmationPage() {
+function OrderConfirmationPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { user, isAuthenticated, isLoading } = useAuth();
@@ -778,5 +778,20 @@ export default function OrderConfirmationPage() {
 
       <Footer />
     </div>
+  );
+}
+
+export default function OrderConfirmationPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[var(--honey-gold)] mx-auto mb-4"></div>
+          <p style={{ color: 'var(--body-text)', fontFamily: 'var(--font-inter)' }}>Učitavanje...</p>
+        </div>
+      </div>
+    }>
+      <OrderConfirmationPageContent />
+    </Suspense>
   );
 }
