@@ -114,6 +114,7 @@ export default function FavoriteProductCard({ product }: FavoriteProductCardProp
         <div className="relative w-full h-48 overflow-hidden bg-gray-100">
           <Image
             src={product.image}
+            loading="lazy"
             alt={product.name}
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"

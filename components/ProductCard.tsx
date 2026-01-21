@@ -13,9 +13,10 @@ type ProductCardProps = {
   product: Product;
   selectedWeight?: string;
   hideSellerAvatar?: boolean; // Hide seller avatar image (show only icon with name)
+  priority?: boolean; // Set to true for above-the-fold images
 };
 
-export default function ProductCard({ product, selectedWeight, hideSellerAvatar = false }: ProductCardProps) {
+export default function ProductCard({ product, selectedWeight, hideSellerAvatar = false, priority = false }: ProductCardProps) {
   const { toggleFavorite, isFavorite, favorites, addFavorite, removeFavorite } = useFavorites();
   const { addToCart, getCartItem, removeFromCart, updateQuantity } = useCart();
   const { showToast } = useToastContext();
@@ -174,6 +175,8 @@ export default function ProductCard({ product, selectedWeight, hideSellerAvatar 
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-110"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority={priority}
+          loading={priority ? undefined : 'lazy'}
         />
         {/* Overlay on hover */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

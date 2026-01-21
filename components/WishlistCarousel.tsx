@@ -164,6 +164,7 @@ export default function WishlistCarousel() {
                 <Link href={`${ROUTES.PRODUCTS}/${product.slug}`}>
                   <Image
                     src={product.image}
+                    loading="lazy"
                     alt={product.name}
                     fill
                     className="object-cover"

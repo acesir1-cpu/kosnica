@@ -535,11 +535,12 @@ function ProductsPageContent() {
                   data-animate-section
                   className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-md:gap-4 items-stretch"
                 >
-                  {paginatedProducts.map((product) => (
+                  {paginatedProducts.map((product, index) => (
                     <ProductCard
                       key={product.id}
                       product={product}
                       selectedWeight={filters.weights.length === 1 ? filters.weights[0] : undefined}
+                      priority={index < 6} // Priority for first 6 products (above the fold)
                     />
                   ))}
                 </div>

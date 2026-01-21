@@ -213,11 +213,12 @@ export default function BestSellingProducts() {
             }}
             onScroll={checkScrollability}
           >
-            {bestSellingProducts.map((product) => (
+            {bestSellingProducts.map((product, index) => (
               <ProductCard
                 key={product.id}
                 product={product}
                 onAddToCart={handleAddToCart}
+                priority={index < 3} // Priority for first 3 products
               />
             ))}
           </div>
@@ -312,6 +313,7 @@ function ProductCard({ product, onAddToCart }: ProductCardProps) {
           fill
           className="object-cover group-hover:scale-110 transition-transform duration-500"
           sizes="320px"
+          loading="lazy"
         />
 
         {/* Heart Icon - Top Right */}
