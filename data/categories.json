@@ -1,0 +1,170 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Livadski med",
+      "slug": "livadski-med",
+      "description": "Mješavina cvjetnog nektara sa različitih livada. Bogat okus i aroma.",
+      "image": "/images/categories/livadski-med.jpg",
+      "type": "category"
+    },
+    {
+      "id": 2,
+      "name": "Planinski med",
+      "slug": "planinski-med",
+      "description": "Prirodan med sačuvan na visokim nadmorskim visinama.",
+      "image": "/images/categories/planinski-med.jpg",
+      "type": "category"
+    },
+    {
+      "id": 3,
+      "name": "Cvjetni med",
+      "slug": "cvjetni-med",
+      "description": "Prirodan med dobijen iz nektara različitih cvjetova.",
+      "image": "/images/categories/cvjetni-med.jpg",
+      "type": "category"
+    },
+    {
+      "id": 4,
+      "name": "Četinarski med",
+      "slug": "cetinarski-med",
+      "description": "Tamniji med sa karakterističnim okusom četina.",
+      "image": "/images/categories/cetinarski-med.jpg",
+      "type": "category"
+    },
+    {
+      "id": 5,
+      "name": "Bagremov med",
+      "slug": "bagremov-med",
+      "description": "Jedan od najcjenjenijih vrsta meda, svijetle boje i blagog okusa.",
+      "image": "/images/categories/bagremov-med.jpg",
+      "type": "category"
+    },
+    {
+      "id": 6,
+      "name": "Lipov med",
+      "slug": "lipov-med",
+      "description": "Prirodan med sačuvan iz nektara lipovog cvijeta.",
+      "image": "/images/categories/lipov-med.jpg",
+      "type": "category"
+    },
+    {
+      "id": 7,
+      "name": "Kaduljin med",
+      "slug": "kaduljin-med",
+      "description": "Prirodan med sačuvan iz nektara kaduljine.",
+      "image": "/images/categories/kaduljin-med.jpg",
+      "type": "category"
+    },
+    {
+      "id": 8,
+      "name": "Šumski med",
+      "slug": "sumski-med",
+      "description": "Tamniji med sačuvan iz šumskog nektara.",
+      "image": "/images/categories/sumski-med.jpg",
+      "type": "category"
+    }
+  ],
+  "additives": [
+    {
+      "id": 1,
+      "name": "Med sa orasima",
+      "slug": "med-sa-orasima",
+      "description": "Kombinacija prirodnog meda i orašastih plodova.",
+      "image": "/images/categories/med-sa-orasima.jpg",
+      "type": "additive"
+    },
+    {
+      "id": 2,
+      "name": "Med sa bademima",
+      "slug": "med-sa-bademima",
+      "description": "Med obogaćen bademima za dodatni okus.",
+      "image": "/images/categories/med-sa-bademima.jpg",
+      "type": "additive"
+    },
+    {
+      "id": 3,
+      "name": "Med sa lješnacima",
+      "slug": "med-sa-ljesnacima",
+      "description": "Med sa dodacima lješnjaka.",
+      "image": "/images/categories/med-sa-ljesnacima.jpg",
+      "type": "additive"
+    },
+    {
+      "id": 4,
+      "name": "Med sa đumbirom",
+      "slug": "med-sa-dumbirom",
+      "description": "Med sa dodacima đumbira za ljekovita svojstva.",
+      "image": "/images/categories/med-sa-dumbirom.jpg",
+      "type": "additive"
+    },
+    {
+      "id": 5,
+      "name": "Med sa matičnom mliječi",
+      "slug": "med-sa-maticnom-mlijecju",
+      "description": "Med obogaćen matičnom mliječi.",
+      "image": "/images/categories/med-sa-maticnom-mlijecju.jpg",
+      "type": "additive"
+    }
+  ],
+  "seasons": [
+    {
+      "id": 1,
+      "name": "Proljetni med",
+      "slug": "proljetni-med",
+      "description": "Med sačuvan u proljeće (mart-maj).",
+      "period": "mart-maj",
+      "type": "season"
+    },
+    {
+      "id": 2,
+      "name": "Ljetnji med",
+      "slug": "ljetnji-med",
+      "description": "Med sačuvan u ljeto (juni-august).",
+      "period": "juni-august",
+      "type": "season"
+    },
+    {
+      "id": 3,
+      "name": "Jesenji med",
+      "slug": "jesenji-med",
+      "description": "Med sačuvan u jesen (septembar-oktobar).",
+      "period": "septembar-oktobar",
+      "type": "season"
+    }
+  ],
+  "weights": [
+    {
+      "id": 1,
+      "value": "250g",
+      "label": "250g"
+    },
+    {
+      "id": 2,
+      "value": "450g",
+      "label": "450g"
+    },
+    {
+      "id": 3,
+      "value": "850g",
+      "label": "850g"
+    }
+  ],
+  "ratings": [
+    {
+      "id": 1,
+      "value": 5,
+      "label": "5 zvjezdica"
+    },
+    {
+      "id": 2,
+      "value": 4,
+      "label": "4 zvjezdice"
+    },
+    {
+      "id": 3,
+      "value": 3,
+      "label": "3 zvjezdice"
+    }
+  ]
+}

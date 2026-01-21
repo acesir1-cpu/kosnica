@@ -1,0 +1,3119 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Livadski med sa matičnom mliječi",
+      "slug": "livadski-med-sa-maticnom-mlijecju-1",
+      "seller": {
+        "id": 2,
+        "name": "Omer Mujić",
+        "location": "Livno",
+        "avatar": "/images/sellers/omer-mujic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Livadski med je mješavina cvjetnog nektara sa različitih livada. Bogat okus i aroma, idealan za svakodnevnu upotrebu.",
+      "price": 20,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Glass Honey Jar with Wooden Lid and Honey Dipper Stick - 350ml Airtight Borosilicate Honey Pot _ Kitchen Storage, Rustic Decor and Gift.jpg",
+      "images": [
+        "/images/products/Glass Honey Jar with Wooden Lid and Honey Dipper Stick - 350ml Airtight Borosilicate Honey Pot _ Kitchen Storage, Rustic Decor and Gift.jpg",
+        "/images/products/Glass Honey Jar with Wooden Lid and Honey Dipper Stick - 350ml Airtight Borosilicate Honey Pot _ Kitchen Storage, Rustic Decor and Gift.jpg"
+      ],
+      "category": "livadski-med",
+      "categorySlug": "livadski-med",
+      "additives": [
+        "med-sa-maticnom-mlijecju"
+      ],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.1,
+      "reviews": 35,
+      "inStock": true,
+      "stock": 28,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Livadski med sa matičnom mliječi bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Livadski med sa lješnacima",
+      "slug": "livadski-med-sa-ljesnacima-2",
+      "seller": {
+        "id": 3,
+        "name": "Dino Mulić",
+        "location": "Sarajevo",
+        "avatar": "/images/sellers/dino-mulic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Livadski med je mješavina cvjetnog nektara sa različitih livada. Bogat okus i aroma, idealan za svakodnevnu upotrebu.",
+      "price": 14,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/AI Images (4k) - Freepik (220824321004).jpg",
+      "images": [
+        "/images/products/AI Images (4k) - Freepik (220824321004).jpg",
+        "/images/products/AI Images (4k) - Freepik (220824321004).jpg"
+      ],
+      "category": "livadski-med",
+      "categorySlug": "livadski-med",
+      "additives": [
+        "med-sa-ljesnacima"
+      ],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.3,
+      "reviews": 37,
+      "inStock": true,
+      "stock": 44,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Livadski med sa lješnacima bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Livadski med",
+      "slug": "livadski-med-3",
+      "seller": {
+        "id": 4,
+        "name": "Mirza Čaušević",
+        "location": "Doboj",
+        "avatar": "/images/sellers/mirza-causevic.jpg"
+      },
+      "description": "Prirodan med sa planina",
+      "longDescription": "Livadski med je mješavina cvjetnog nektara sa različitih livada. Bogat okus i aroma, idealan za svakodnevnu upotrebu.",
+      "price": 20,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Raw Unpasteurized Local Ontario Honey.jpg",
+      "images": [
+        "/images/products/Raw Unpasteurized Local Ontario Honey.jpg",
+        "/images/products/Raw Unpasteurized Local Ontario Honey.jpg"
+      ],
+      "category": "livadski-med",
+      "categorySlug": "livadski-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.5,
+      "reviews": 31,
+      "inStock": true,
+      "stock": 54,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Livadski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Livadski med",
+      "slug": "livadski-med-4",
+      "seller": {
+        "id": 5,
+        "name": "Amir Hasanović",
+        "location": "Doboj",
+        "avatar": "/images/sellers/amir-hasanovic.jpg"
+      },
+      "description": "Kvalitetan med sa domaćih livada",
+      "longDescription": "Livadski med je mješavina cvjetnog nektara sa različitih livada. Bogat okus i aroma, idealan za svakodnevnu upotrebu.",
+      "price": 16,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/new (3).jpg",
+      "images": [
+        "/images/products/new (3).jpg",
+        "/images/products/new (3).jpg"
+      ],
+      "category": "livadski-med",
+      "categorySlug": "livadski-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.3,
+      "reviews": 23,
+      "inStock": true,
+      "stock": 23,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Livadski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Livadski med",
+      "slug": "livadski-med-5",
+      "seller": {
+        "id": 6,
+        "name": "Haris Dervišević",
+        "location": "Sanski Most",
+        "avatar": "/images/sellers/haris-dervisevic.jpg"
+      },
+      "description": "Organski med bez dodataka",
+      "longDescription": "Livadski med je mješavina cvjetnog nektara sa različitih livada. Bogat okus i aroma, idealan za svakodnevnu upotrebu.",
+      "price": 15,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/med sa orasima.jpg",
+      "images": [
+        "/images/products/med sa orasima.jpg",
+        "/images/products/med sa orasima.jpg"
+      ],
+      "category": "livadski-med",
+      "categorySlug": "livadski-med",
+      "additives": [],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 5,
+      "reviews": 89,
+      "inStock": true,
+      "stock": 34,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Livadski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Livadski med",
+      "slug": "livadski-med-6",
+      "seller": {
+        "id": 7,
+        "name": "Dino Mulić",
+        "location": "Tuzla",
+        "avatar": "/images/sellers/dino-mulic.jpg"
+      },
+      "description": "Organski med bez dodataka",
+      "longDescription": "Livadski med je mješavina cvjetnog nektara sa različitih livada. Bogat okus i aroma, idealan za svakodnevnu upotrebu.",
+      "price": 16,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Madagascar Bourbon  Vanilla Bean Infused Honey.jpg",
+      "images": [
+        "/images/products/Madagascar Bourbon  Vanilla Bean Infused Honey.jpg",
+        "/images/products/Madagascar Bourbon  Vanilla Bean Infused Honey.jpg"
+      ],
+      "category": "livadski-med",
+      "categorySlug": "livadski-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.9,
+      "reviews": 24,
+      "inStock": true,
+      "stock": 24,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Livadski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Livadski med",
+      "slug": "livadski-med-7",
+      "seller": {
+        "id": 8,
+        "name": "Omer Mujić",
+        "location": "Bugojno",
+        "avatar": "/images/sellers/omer-mujic.jpg"
+      },
+      "description": "Organski certificirani med",
+      "longDescription": "Livadski med je mješavina cvjetnog nektara sa različitih livada. Bogat okus i aroma, idealan za svakodnevnu upotrebu.",
+      "price": 19,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/honey-4926892_1280.jpg",
+      "images": [
+        "/images/products/honey-4926892_1280.jpg",
+        "/images/products/honey-4926892_1280.jpg"
+      ],
+      "category": "livadski-med",
+      "categorySlug": "livadski-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.5,
+      "reviews": 68,
+      "inStock": true,
+      "stock": 17,
+      "badge": "novo-u-ponudi",
+      "badgeText": "NOVO U PONUDI",
+      "keyCharacteristics": {
+        "vrstaMeda": "Livadski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Planinski med",
+      "slug": "planinski-med-8",
+      "seller": {
+        "id": 9,
+        "name": "Haris Dervišević",
+        "location": "Bihać",
+        "avatar": "/images/sellers/haris-dervisevic.jpg"
+      },
+      "description": "Med sačuvan tradicionalnom metodom",
+      "longDescription": "Planinski med je prirodan med sačuvan na visokim nadmorskim visinama. Čist okus i visok kvalitet.",
+      "price": 21,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Front view honey in a jar with a wooden spoon and green grapes and on a wooden background _ Free Photo.jpg",
+      "images": [
+        "/images/products/Front view honey in a jar with a wooden spoon and green grapes and on a wooden background _ Free Photo.jpg",
+        "/images/products/Front view honey in a jar with a wooden spoon and green grapes and on a wooden background _ Free Photo.jpg"
+      ],
+      "category": "planinski-med",
+      "categorySlug": "planinski-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.7,
+      "reviews": 97,
+      "inStock": true,
+      "stock": 38,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Planinski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Planinski med",
+      "slug": "planinski-med-9",
+      "seller": {
+        "id": 10,
+        "name": "Faruk Avdić",
+        "location": "Goražde",
+        "avatar": "/images/sellers/faruk-avdic.jpg"
+      },
+      "description": "Vrhunski kvalitet, ručno vrcano",
+      "longDescription": "Planinski med je prirodan med sačuvan na visokim nadmorskim visinama. Čist okus i visok kvalitet.",
+      "price": 13,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Honey jar with spoon and lavender _ Free Photo.jpg",
+      "images": [
+        "/images/products/Honey jar with spoon and lavender _ Free Photo.jpg",
+        "/images/products/Honey jar with spoon and lavender _ Free Photo.jpg"
+      ],
+      "category": "planinski-med",
+      "categorySlug": "planinski-med",
+      "additives": [],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.2,
+      "reviews": 59,
+      "inStock": true,
+      "stock": 28,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Planinski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Planinski med sa lješnacima",
+      "slug": "planinski-med-sa-ljesnacima-10",
+      "seller": {
+        "id": 11,
+        "name": "Haris Dervišević",
+        "location": "Doboj",
+        "avatar": "/images/sellers/haris-dervisevic.jpg"
+      },
+      "description": "Prirodan med direktno od pčelara",
+      "longDescription": "Planinski med je prirodan med sačuvan na visokim nadmorskim visinama. Čist okus i visok kvalitet.",
+      "price": 20,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/download (1).jpg",
+      "images": [
+        "/images/products/download (1).jpg",
+        "/images/products/download (1).jpg"
+      ],
+      "category": "planinski-med",
+      "categorySlug": "planinski-med",
+      "additives": [
+        "med-sa-ljesnacima"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.1,
+      "reviews": 47,
+      "inStock": true,
+      "stock": 32,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Planinski med sa lješnacima bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Planinski med",
+      "slug": "planinski-med-11",
+      "seller": {
+        "id": 12,
+        "name": "Kenan Smajlović",
+        "location": "Goražde",
+        "avatar": "/images/sellers/kenan-smajlovic.jpg"
+      },
+      "description": "Med sačuvan tradicionalnom metodom",
+      "longDescription": "Planinski med je prirodan med sačuvan na visokim nadmorskim visinama. Čist okus i visok kvalitet.",
+      "price": 15,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/nova_slika _stavi.jpg",
+      "images": [
+        "/images/products/nova_slika _stavi.jpg",
+        "/images/products/nova_slika _stavi.jpg"
+      ],
+      "category": "planinski-med",
+      "categorySlug": "planinski-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.2,
+      "reviews": 26,
+      "inStock": true,
+      "stock": 43,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Planinski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Planinski med sa đumbirom",
+      "slug": "planinski-med-sa-dumbirom-12",
+      "seller": {
+        "id": 13,
+        "name": "Kenan Smajlović",
+        "location": "Mostar",
+        "avatar": "/images/sellers/kenan-smajlovic.jpg"
+      },
+      "description": "Organski certificirani med",
+      "longDescription": "Planinski med je prirodan med sačuvan na visokim nadmorskim visinama. Čist okus i visok kvalitet.",
+      "price": 17,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Smielatura 2022.jpg",
+      "images": [
+        "/images/products/Smielatura 2022.jpg",
+        "/images/products/Smielatura 2022.jpg"
+      ],
+      "category": "planinski-med",
+      "categorySlug": "planinski-med",
+      "additives": [
+        "med-sa-dumbirom"
+      ],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.9,
+      "reviews": 67,
+      "inStock": true,
+      "stock": 46,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Planinski med sa đumbirom bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Planinski med sa orasima",
+      "slug": "planinski-med-sa-orasima-13",
+      "seller": {
+        "id": 14,
+        "name": "Adnan Karić",
+        "location": "Zenica",
+        "avatar": "/images/sellers/adnan-karic.jpg"
+      },
+      "description": "Kvalitetan med sa domaćih livada",
+      "longDescription": "Planinski med je prirodan med sačuvan na visokim nadmorskim visinama. Čist okus i visok kvalitet.",
+      "price": 18,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/10 Of The Longest Lasting Things In The World.jpg",
+      "images": [
+        "/images/products/10 Of The Longest Lasting Things In The World.jpg",
+        "/images/products/10 Of The Longest Lasting Things In The World.jpg"
+      ],
+      "category": "planinski-med",
+      "categorySlug": "planinski-med",
+      "additives": [
+        "med-sa-orasima"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.3,
+      "reviews": 36,
+      "inStock": true,
+      "stock": 36,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Planinski med sa orasima bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Planinski med",
+      "slug": "planinski-med-14",
+      "seller": {
+        "id": 15,
+        "name": "Dženan Kovačević",
+        "location": "Bihać",
+        "avatar": "/images/sellers/dzenan-kovacevic.jpg"
+      },
+      "description": "Svijetao, blag i ljekovit",
+      "longDescription": "Planinski med je prirodan med sačuvan na visokim nadmorskim visinama. Čist okus i visok kvalitet.",
+      "price": 22,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Golden Turmeric Honey.jpg",
+      "images": [
+        "/images/products/Golden Turmeric Honey.jpg",
+        "/images/products/Golden Turmeric Honey.jpg"
+      ],
+      "category": "planinski-med",
+      "categorySlug": "planinski-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.1,
+      "reviews": 41,
+      "inStock": true,
+      "stock": 41,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Planinski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Cvjetni med sa orasima",
+      "slug": "cvjetni-med-sa-orasima-15",
+      "seller": {
+        "id": 16,
+        "name": "Nedim Hadžić",
+        "location": "Jajce",
+        "avatar": "/images/sellers/nedim-hadzic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Cvjetni med je prirodan med dobijen iz nektara različitih cvjetova. Blag okus i prijatna aroma.",
+      "price": 17,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/new (1).webp",
+      "images": [
+        "/images/products/new (1).webp",
+        "/images/products/new (1).webp"
+      ],
+      "category": "cvjetni-med",
+      "categorySlug": "cvjetni-med",
+      "additives": [
+        "med-sa-orasima"
+      ],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.4,
+      "reviews": 92,
+      "inStock": true,
+      "stock": 21,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Cvjetni med sa orasima bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Cvjetni med",
+      "slug": "cvjetni-med-16",
+      "seller": {
+        "id": 17,
+        "name": "Emin Suljić",
+        "location": "Tuzla",
+        "avatar": "/images/sellers/emin-suljic.jpg"
+      },
+      "description": "Organski med bez dodataka",
+      "longDescription": "Cvjetni med je prirodan med dobijen iz nektara različitih cvjetova. Blag okus i prijatna aroma.",
+      "price": 16,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/bees-frame-garden-photo-lg.jpeg",
+      "images": [
+        "/images/products/bees-frame-garden-photo-lg.jpeg",
+        "/images/products/bees-frame-garden-photo-lg.jpeg"
+      ],
+      "category": "cvjetni-med",
+      "categorySlug": "cvjetni-med",
+      "additives": [],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.4,
+      "reviews": 60,
+      "inStock": true,
+      "stock": 38,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Cvjetni med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Cvjetni med",
+      "slug": "cvjetni-med-17",
+      "seller": {
+        "id": 18,
+        "name": "Kenan Smajlović",
+        "location": "Mostar",
+        "avatar": "/images/sellers/kenan-smajlovic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Cvjetni med je prirodan med dobijen iz nektara različitih cvjetova. Blag okus i prijatna aroma.",
+      "price": 22,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Sweet, Kentucky Proud honey_.jpg",
+      "images": [
+        "/images/products/Sweet, Kentucky Proud honey_.jpg",
+        "/images/products/Sweet, Kentucky Proud honey_.jpg"
+      ],
+      "category": "cvjetni-med",
+      "categorySlug": "cvjetni-med",
+      "additives": [],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.4,
+      "reviews": 79,
+      "inStock": true,
+      "stock": 55,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Cvjetni med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Cvjetni med",
+      "slug": "cvjetni-med-18",
+      "seller": {
+        "id": 19,
+        "name": "Adnan Karić",
+        "location": "Jajce",
+        "avatar": "/images/sellers/adnan-karic.jpg"
+      },
+      "description": "Svjež med iz košnice",
+      "longDescription": "Cvjetni med je prirodan med dobijen iz nektara različitih cvjetova. Blag okus i prijatna aroma.",
+      "price": 15,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Lang Wei Jin Student Packaging Design Concept for Bee My Honey - World Brand Design Society.jpg",
+      "images": [
+        "/images/products/Lang Wei Jin Student Packaging Design Concept for Bee My Honey - World Brand Design Society.jpg",
+        "/images/products/Lang Wei Jin Student Packaging Design Concept for Bee My Honey - World Brand Design Society.jpg"
+      ],
+      "category": "cvjetni-med",
+      "categorySlug": "cvjetni-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.5,
+      "reviews": 64,
+      "inStock": true,
+      "stock": 29,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Cvjetni med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Cvjetni med",
+      "slug": "cvjetni-med-19",
+      "seller": {
+        "id": 20,
+        "name": "Benjamin Jusić",
+        "location": "Tuzla",
+        "avatar": "/images/sellers/benjamin-jusic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Cvjetni med je prirodan med dobijen iz nektara različitih cvjetova. Blag okus i prijatna aroma.",
+      "price": 21,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/honey-823614_1280.jpg",
+      "images": [
+        "/images/products/honey-823614_1280.jpg",
+        "/images/products/honey-823614_1280.jpg"
+      ],
+      "category": "cvjetni-med",
+      "categorySlug": "cvjetni-med",
+      "additives": [],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.8,
+      "reviews": 99,
+      "inStock": true,
+      "stock": 30,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Cvjetni med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Cvjetni med",
+      "slug": "cvjetni-med-20",
+      "seller": {
+        "id": 21,
+        "name": "Amir Hasanović",
+        "location": "Goražde",
+        "avatar": "/images/sellers/amir-hasanovic.jpg"
+      },
+      "description": "Svjež med iz košnice",
+      "longDescription": "Cvjetni med je prirodan med dobijen iz nektara različitih cvjetova. Blag okus i prijatna aroma.",
+      "price": 14,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Golden Turmeric Honey (1).jpg",
+      "images": [
+        "/images/products/Golden Turmeric Honey (1).jpg",
+        "/images/products/Golden Turmeric Honey (1).jpg"
+      ],
+      "category": "cvjetni-med",
+      "categorySlug": "cvjetni-med",
+      "additives": [],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.3,
+      "reviews": 38,
+      "inStock": true,
+      "stock": 28,
+      "badge": "novo-u-ponudi",
+      "badgeText": "NOVO U PONUDI",
+      "keyCharacteristics": {
+        "vrstaMeda": "Cvjetni med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Cvjetni med",
+      "slug": "cvjetni-med-21",
+      "seller": {
+        "id": 22,
+        "name": "Kenan Smajlović",
+        "location": "Bihać",
+        "avatar": "/images/sellers/kenan-smajlovic.jpg"
+      },
+      "description": "Svijetao, blag i ljekovit",
+      "longDescription": "Cvjetni med je prirodan med dobijen iz nektara različitih cvjetova. Blag okus i prijatna aroma.",
+      "price": 20,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/new (4).jpg",
+      "images": [
+        "/images/products/new (4).jpg",
+        "/images/products/new (4).jpg"
+      ],
+      "category": "cvjetni-med",
+      "categorySlug": "cvjetni-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.5,
+      "reviews": 11,
+      "inStock": true,
+      "stock": 35,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Cvjetni med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Četinarski med",
+      "slug": "cetinarski-med-22",
+      "seller": {
+        "id": 23,
+        "name": "Mirza Čaušević",
+        "location": "Livno",
+        "avatar": "/images/sellers/mirza-causevic.jpg"
+      },
+      "description": "Vrhunski kvalitet, ručno vrcano",
+      "longDescription": "Četinarski med je tamniji med sa karakterističnim okusom četina. Bogat antioksidansima.",
+      "price": 17,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/honey-dipper-photo-lg.jpeg",
+      "images": [
+        "/images/products/honey-dipper-photo-lg.jpeg",
+        "/images/products/honey-dipper-photo-lg.jpeg"
+      ],
+      "category": "cetinarski-med",
+      "categorySlug": "cetinarski-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.6,
+      "reviews": 6,
+      "inStock": true,
+      "stock": 24,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Četinarski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Četinarski med",
+      "slug": "cetinarski-med-23",
+      "seller": {
+        "id": 24,
+        "name": "Adnan Karić",
+        "location": "Travnik",
+        "avatar": "/images/sellers/adnan-karic.jpg"
+      },
+      "description": "Prirodan med direktno od pčelara",
+      "longDescription": "Četinarski med je tamniji med sa karakterističnim okusom četina. Bogat antioksidansima.",
+      "price": 14,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Lavender Infused Honey.jpg",
+      "images": [
+        "/images/products/Lavender Infused Honey.jpg",
+        "/images/products/Lavender Infused Honey.jpg"
+      ],
+      "category": "cetinarski-med",
+      "categorySlug": "cetinarski-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.6,
+      "reviews": 76,
+      "inStock": true,
+      "stock": 41,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Četinarski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Četinarski med sa đumbirom",
+      "slug": "cetinarski-med-sa-dumbirom-24",
+      "seller": {
+        "id": 25,
+        "name": "Faruk Avdić",
+        "location": "Bugojno",
+        "avatar": "/images/sellers/faruk-avdic.jpg"
+      },
+      "description": "Organski certificirani med",
+      "longDescription": "Četinarski med je tamniji med sa karakterističnim okusom četina. Bogat antioksidansima.",
+      "price": 16,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Wild Heather Honey Raw Natural Pure Latvian Honey Gift.jpg",
+      "images": [
+        "/images/products/Wild Heather Honey Raw Natural Pure Latvian Honey Gift.jpg",
+        "/images/products/Wild Heather Honey Raw Natural Pure Latvian Honey Gift.jpg"
+      ],
+      "category": "cetinarski-med",
+      "categorySlug": "cetinarski-med",
+      "additives": [
+        "med-sa-dumbirom"
+      ],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.9,
+      "reviews": 49,
+      "inStock": true,
+      "stock": 48,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Četinarski med sa đumbirom bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Četinarski med",
+      "slug": "cetinarski-med-25",
+      "seller": {
+        "id": 26,
+        "name": "Kenan Smajlović",
+        "location": "Zenica",
+        "avatar": "/images/sellers/kenan-smajlovic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Četinarski med je tamniji med sa karakterističnim okusom četina. Bogat antioksidansima.",
+      "price": 18,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Enchanting Witchy Craft Ideas for June - Soft Spirituality.jpg",
+      "images": [
+        "/images/products/Enchanting Witchy Craft Ideas for June - Soft Spirituality.jpg",
+        "/images/products/Enchanting Witchy Craft Ideas for June - Soft Spirituality.jpg"
+      ],
+      "category": "cetinarski-med",
+      "categorySlug": "cetinarski-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.3,
+      "reviews": 50,
+      "inStock": true,
+      "stock": 34,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Četinarski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Četinarski med",
+      "slug": "cetinarski-med-26",
+      "seller": {
+        "id": 27,
+        "name": "Haris Dervišević",
+        "location": "Livno",
+        "avatar": "/images/sellers/haris-dervisevic.jpg"
+      },
+      "description": "Kvalitetan med sa domaćih livada",
+      "longDescription": "Četinarski med je tamniji med sa karakterističnim okusom četina. Bogat antioksidansima.",
+      "price": 14,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Raw Honey.jpg",
+      "images": [
+        "/images/products/Raw Honey.jpg",
+        "/images/products/Raw Honey.jpg"
+      ],
+      "category": "cetinarski-med",
+      "categorySlug": "cetinarski-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.3,
+      "reviews": 83,
+      "inStock": true,
+      "stock": 17,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Četinarski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Četinarski med",
+      "slug": "cetinarski-med-27",
+      "seller": {
+        "id": 28,
+        "name": "Faruk Avdić",
+        "location": "Sanski Most",
+        "avatar": "/images/sellers/faruk-avdic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Četinarski med je tamniji med sa karakterističnim okusom četina. Bogat antioksidansima.",
+      "price": 20,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/2 Honeycomb Jars.jpg",
+      "images": [
+        "/images/products/2 Honeycomb Jars.jpg",
+        "/images/products/2 Honeycomb Jars.jpg"
+      ],
+      "category": "cetinarski-med",
+      "categorySlug": "cetinarski-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.5,
+      "reviews": 71,
+      "inStock": true,
+      "stock": 15,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Četinarski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Četinarski med",
+      "slug": "cetinarski-med-28",
+      "seller": {
+        "id": 29,
+        "name": "Dženan Kovačević",
+        "location": "Doboj",
+        "avatar": "/images/sellers/dzenan-kovacevic.jpg"
+      },
+      "description": "Prirodan med sa planina",
+      "longDescription": "Četinarski med je tamniji med sa karakterističnim okusom četina. Bogat antioksidansima.",
+      "price": 21,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/download.jpg",
+      "images": [
+        "/images/products/download.jpg",
+        "/images/products/download.jpg"
+      ],
+      "category": "cetinarski-med",
+      "categorySlug": "cetinarski-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.9,
+      "reviews": 81,
+      "inStock": true,
+      "stock": 26,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Četinarski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Bagremov med",
+      "slug": "bagremov-med-29",
+      "seller": {
+        "id": 30,
+        "name": "Dženan Kovačević",
+        "location": "Banja Luka",
+        "avatar": "/images/sellers/dzenan-kovacevic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Bagremov med je jedan od najcjenjenijih i najčišćih vrsta meda, poznat po svojoj svijetloj boji, blagom okusu i dugotrajnoj tečnoj strukturi.",
+      "price": 21,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/food-breakfast-backlighting-photo-lg.jpeg",
+      "images": [
+        "/images/products/food-breakfast-backlighting-photo-lg.jpeg",
+        "/images/products/food-breakfast-backlighting-photo-lg.jpeg"
+      ],
+      "category": "bagremov-med",
+      "categorySlug": "bagremov-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.4,
+      "reviews": 11,
+      "inStock": true,
+      "stock": 20,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Bagremov med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Bagremov med sa bademima",
+      "slug": "bagremov-med-sa-bademima-30",
+      "seller": {
+        "id": 31,
+        "name": "Haris Dervišević",
+        "location": "Bugojno",
+        "avatar": "/images/sellers/haris-dervisevic.jpg"
+      },
+      "description": "Organski med bez dodataka",
+      "longDescription": "Bagremov med je jedan od najcjenjenijih i najčišćih vrsta meda, poznat po svojoj svijetloj boji, blagom okusu i dugotrajnoj tečnoj strukturi.",
+      "price": 20,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Pure Raw Local Honey with the Comb _ Natural fresh honey _ Spring Honey _ Honey Comb.jpg",
+      "images": [
+        "/images/products/Pure Raw Local Honey with the Comb _ Natural fresh honey _ Spring Honey _ Honey Comb.jpg",
+        "/images/products/Pure Raw Local Honey with the Comb _ Natural fresh honey _ Spring Honey _ Honey Comb.jpg"
+      ],
+      "category": "bagremov-med",
+      "categorySlug": "bagremov-med",
+      "additives": [
+        "med-sa-bademima"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.3,
+      "reviews": 8,
+      "inStock": true,
+      "stock": 41,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Bagremov med sa bademima bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Bagremov med",
+      "slug": "bagremov-med-31",
+      "seller": {
+        "id": 32,
+        "name": "Emir Hodžić",
+        "location": "Konjic",
+        "avatar": "/images/sellers/emir-hodzic.jpg"
+      },
+      "description": "Prirodan med direktno od pčelara",
+      "longDescription": "Bagremov med je jedan od najcjenjenijih i najčišćih vrsta meda, poznat po svojoj svijetloj boji, blagom okusu i dugotrajnoj tečnoj strukturi.",
+      "price": 17,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/dessert-honey-jar-photo-lg.jpeg",
+      "images": [
+        "/images/products/dessert-honey-jar-photo-lg.jpeg",
+        "/images/products/dessert-honey-jar-photo-lg.jpeg"
+      ],
+      "category": "bagremov-med",
+      "categorySlug": "bagremov-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.1,
+      "reviews": 19,
+      "inStock": true,
+      "stock": 37,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Bagremov med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Bagremov med sa matičnom mliječi",
+      "slug": "bagremov-med-sa-maticnom-mlijecju-32",
+      "seller": {
+        "id": 33,
+        "name": "Amir Hasanović",
+        "location": "Goražde",
+        "avatar": "/images/sellers/amir-hasanovic.jpg"
+      },
+      "description": "Organski med bez dodataka",
+      "longDescription": "Bagremov med je jedan od najcjenjenijih i najčišćih vrsta meda, poznat po svojoj svijetloj boji, blagom okusu i dugotrajnoj tečnoj strukturi.",
+      "price": 15,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Lavender Infused Honey - 5oz.jpg",
+      "images": [
+        "/images/products/Lavender Infused Honey - 5oz.jpg",
+        "/images/products/Lavender Infused Honey - 5oz.jpg"
+      ],
+      "category": "bagremov-med",
+      "categorySlug": "bagremov-med",
+      "additives": [
+        "med-sa-maticnom-mlijecju"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.4,
+      "reviews": 19,
+      "inStock": true,
+      "stock": 32,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Bagremov med sa matičnom mliječi bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Bagremov med",
+      "slug": "bagremov-med-33",
+      "seller": {
+        "id": 34,
+        "name": "Emin Suljić",
+        "location": "Travnik",
+        "avatar": "/images/sellers/emin-suljic.jpg"
+      },
+      "description": "Svjež med iz košnice",
+      "longDescription": "Bagremov med je jedan od najcjenjenijih i najčišćih vrsta meda, poznat po svojoj svijetloj boji, blagom okusu i dugotrajnoj tečnoj strukturi.",
+      "price": 13,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/honey-5043708_1280.jpg",
+      "images": [
+        "/images/products/honey-5043708_1280.jpg",
+        "/images/products/honey-5043708_1280.jpg"
+      ],
+      "category": "bagremov-med",
+      "categorySlug": "bagremov-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.4,
+      "reviews": 7,
+      "inStock": true,
+      "stock": 17,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Bagremov med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Bagremov med",
+      "slug": "bagremov-med-34",
+      "seller": {
+        "id": 35,
+        "name": "Kenan Smajlović",
+        "location": "Sarajevo",
+        "avatar": "/images/sellers/kenan-smajlovic.jpg"
+      },
+      "description": "Prirodan med direktno od pčelara",
+      "longDescription": "Bagremov med je jedan od najcjenjenijih i najčišćih vrsta meda, poznat po svojoj svijetloj boji, blagom okusu i dugotrajnoj tečnoj strukturi.",
+      "price": 16,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/new (1).jpeg",
+      "images": [
+        "/images/products/new (1).jpeg",
+        "/images/products/new (1).jpeg"
+      ],
+      "category": "bagremov-med",
+      "categorySlug": "bagremov-med",
+      "additives": [],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.6,
+      "reviews": 76,
+      "inStock": true,
+      "stock": 55,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Bagremov med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Bagremov med",
+      "slug": "bagremov-med-35",
+      "seller": {
+        "id": 36,
+        "name": "Nedim Hadžić",
+        "location": "Jajce",
+        "avatar": "/images/sellers/nedim-hadzic.jpg"
+      },
+      "description": "Svijetao, blag i ljekovit",
+      "longDescription": "Bagremov med je jedan od najcjenjenijih i najčišćih vrsta meda, poznat po svojoj svijetloj boji, blagom okusu i dugotrajnoj tečnoj strukturi.",
+      "price": 15,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/download (3).jpg",
+      "images": [
+        "/images/products/download (3).jpg",
+        "/images/products/download (3).jpg"
+      ],
+      "category": "bagremov-med",
+      "categorySlug": "bagremov-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.2,
+      "reviews": 70,
+      "inStock": true,
+      "stock": 45,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Bagremov med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Lipov med",
+      "slug": "lipov-med-36",
+      "seller": {
+        "id": 37,
+        "name": "Dino Mulić",
+        "location": "Bugojno",
+        "avatar": "/images/sellers/dino-mulic.jpg"
+      },
+      "description": "Med sačuvan ručnom metodom",
+      "longDescription": "Lipov med je prirodan med sačuvan iz nektara lipovog cvijeta. Blag okus i ljekovita svojstva.",
+      "price": 20,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Flow Honey Jar Gift Set - 12-Pack.jpg",
+      "images": [
+        "/images/products/Flow Honey Jar Gift Set - 12-Pack.jpg",
+        "/images/products/Flow Honey Jar Gift Set - 12-Pack.jpg"
+      ],
+      "category": "lipov-med",
+      "categorySlug": "lipov-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.8,
+      "reviews": 96,
+      "inStock": true,
+      "stock": 10,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Lipov med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Lipov med sa orasima",
+      "slug": "lipov-med-sa-orasima-37",
+      "seller": {
+        "id": 38,
+        "name": "Amir Hasanović",
+        "location": "Sarajevo",
+        "avatar": "/images/sellers/amir-hasanovic.jpg"
+      },
+      "description": "Prirodan med direktno od pčelara",
+      "longDescription": "Lipov med je prirodan med sačuvan iz nektara lipovog cvijeta. Blag okus i ljekovita svojstva.",
+      "price": 18,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/honey-1852934_1280.jpg",
+      "images": [
+        "/images/products/honey-1852934_1280.jpg",
+        "/images/products/honey-1852934_1280.jpg"
+      ],
+      "category": "lipov-med",
+      "categorySlug": "lipov-med",
+      "additives": [
+        "med-sa-orasima"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.2,
+      "reviews": 68,
+      "inStock": true,
+      "stock": 56,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Lipov med sa orasima bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Lipov med",
+      "slug": "lipov-med-38",
+      "seller": {
+        "id": 39,
+        "name": "Dženan Kovačević",
+        "location": "Konjic",
+        "avatar": "/images/sellers/dzenan-kovacevic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Lipov med je prirodan med sačuvan iz nektara lipovog cvijeta. Blag okus i ljekovita svojstva.",
+      "price": 22,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/new (1).jpg",
+      "images": [
+        "/images/products/new (1).jpg",
+        "/images/products/new (1).jpg"
+      ],
+      "category": "lipov-med",
+      "categorySlug": "lipov-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.4,
+      "reviews": 57,
+      "inStock": true,
+      "stock": 35,
+      "badge": "novo-u-ponudi",
+      "badgeText": "NOVO U PONUDI",
+      "keyCharacteristics": {
+        "vrstaMeda": "Lipov med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Lipov med",
+      "slug": "lipov-med-39",
+      "seller": {
+        "id": 40,
+        "name": "Benjamin Jusić",
+        "location": "Zenica",
+        "avatar": "/images/sellers/benjamin-jusic.jpg"
+      },
+      "description": "Prirodan med sa planina",
+      "longDescription": "Lipov med je prirodan med sačuvan iz nektara lipovog cvijeta. Blag okus i ljekovita svojstva.",
+      "price": 13,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Multifloral Honey.jpg",
+      "images": [
+        "/images/products/Multifloral Honey.jpg",
+        "/images/products/Multifloral Honey.jpg"
+      ],
+      "category": "lipov-med",
+      "categorySlug": "lipov-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.9,
+      "reviews": 61,
+      "inStock": true,
+      "stock": 32,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Lipov med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Lipov med sa orasima",
+      "slug": "lipov-med-sa-orasima-40",
+      "seller": {
+        "id": 41,
+        "name": "Tarik Begović",
+        "location": "Sarajevo",
+        "avatar": "/images/sellers/tarik-begovic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Lipov med je prirodan med sačuvan iz nektara lipovog cvijeta. Blag okus i ljekovita svojstva.",
+      "price": 15,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Make Your Own Honey Jar Still Life Images.jpg",
+      "images": [
+        "/images/products/Make Your Own Honey Jar Still Life Images.jpg",
+        "/images/products/Make Your Own Honey Jar Still Life Images.jpg"
+      ],
+      "category": "lipov-med",
+      "categorySlug": "lipov-med",
+      "additives": [
+        "med-sa-orasima"
+      ],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.4,
+      "reviews": 94,
+      "inStock": true,
+      "stock": 25,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Lipov med sa orasima bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 41,
+      "name": "Lipov med sa orasima",
+      "slug": "lipov-med-sa-orasima-41",
+      "seller": {
+        "id": 42,
+        "name": "Emir Hodžić",
+        "location": "Mostar",
+        "avatar": "/images/sellers/emir-hodzic.jpg"
+      },
+      "description": "Med sačuvan ručnom metodom",
+      "longDescription": "Lipov med je prirodan med sačuvan iz nektara lipovog cvijeta. Blag okus i ljekovita svojstva.",
+      "price": 15,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/download (2).jpg",
+      "images": [
+        "/images/products/download (2).jpg",
+        "/images/products/download (2).jpg"
+      ],
+      "category": "lipov-med",
+      "categorySlug": "lipov-med",
+      "additives": [
+        "med-sa-orasima"
+      ],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.6,
+      "reviews": 104,
+      "inStock": true,
+      "stock": 50,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Lipov med sa orasima bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Lipov med sa orasima",
+      "slug": "lipov-med-sa-orasima-42",
+      "seller": {
+        "id": 43,
+        "name": "Emin Suljić",
+        "location": "Zenica",
+        "avatar": "/images/sellers/emin-suljic.jpg"
+      },
+      "description": "Med sačuvan u prirodnim uvjetima",
+      "longDescription": "Lipov med je prirodan med sačuvan iz nektara lipovog cvijeta. Blag okus i ljekovita svojstva.",
+      "price": 19,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/new (2).jpg",
+      "images": [
+        "/images/products/new (2).jpg",
+        "/images/products/new (2).jpg"
+      ],
+      "category": "lipov-med",
+      "categorySlug": "lipov-med",
+      "additives": [
+        "med-sa-orasima"
+      ],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.8,
+      "reviews": 32,
+      "inStock": true,
+      "stock": 15,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Lipov med sa orasima bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Kaduljin med",
+      "slug": "kaduljin-med-43",
+      "seller": {
+        "id": 44,
+        "name": "Benjamin Jusić",
+        "location": "Goražde",
+        "avatar": "/images/sellers/benjamin-jusic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Kaduljin med je prirodan med sačuvan iz nektara kaduljine. Karakterističan okus i ljekovita svojstva.",
+      "price": 21,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/jar-sweet-honey-flowers-desk.jpg",
+      "images": [
+        "/images/products/jar-sweet-honey-flowers-desk.jpg",
+        "/images/products/jar-sweet-honey-flowers-desk.jpg"
+      ],
+      "category": "kaduljin-med",
+      "categorySlug": "kaduljin-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.4,
+      "reviews": 30,
+      "inStock": true,
+      "stock": 30,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Kaduljin med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Kaduljin med sa orasima",
+      "slug": "kaduljin-med-sa-orasima-44",
+      "seller": {
+        "id": 45,
+        "name": "Tarik Begović",
+        "location": "Trebinje",
+        "avatar": "/images/sellers/tarik-begovic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Kaduljin med je prirodan med sačuvan iz nektara kaduljine. Karakterističan okus i ljekovita svojstva.",
+      "price": 19,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/honey-jar-with-spoon.jpg",
+      "images": [
+        "/images/products/honey-jar-with-spoon.jpg",
+        "/images/products/honey-jar-with-spoon.jpg"
+      ],
+      "category": "kaduljin-med",
+      "categorySlug": "kaduljin-med",
+      "additives": [
+        "med-sa-orasima"
+      ],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.4,
+      "reviews": 38,
+      "inStock": true,
+      "stock": 14,
+      "badge": "novo-u-ponudi",
+      "badgeText": "NOVO U PONUDI",
+      "keyCharacteristics": {
+        "vrstaMeda": "Kaduljin med sa orasima bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Kaduljin med",
+      "slug": "kaduljin-med-45",
+      "seller": {
+        "id": 46,
+        "name": "Haris Dervišević",
+        "location": "Mostar",
+        "avatar": "/images/sellers/haris-dervisevic.jpg"
+      },
+      "description": "Prirodan med bez konzervansa",
+      "longDescription": "Kaduljin med je prirodan med sačuvan iz nektara kaduljine. Karakterističan okus i ljekovita svojstva.",
+      "price": 20,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/honey-honeycomb-jar-photo-lg.jpeg",
+      "images": [
+        "/images/products/honey-honeycomb-jar-photo-lg.jpeg",
+        "/images/products/honey-honeycomb-jar-photo-lg.jpeg"
+      ],
+      "category": "kaduljin-med",
+      "categorySlug": "kaduljin-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.5,
+      "reviews": 89,
+      "inStock": true,
+      "stock": 17,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Kaduljin med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Kaduljin med sa matičnom mliječi",
+      "slug": "kaduljin-med-sa-maticnom-mlijecju-46",
+      "seller": {
+        "id": 47,
+        "name": "Benjamin Jusić",
+        "location": "Konjic",
+        "avatar": "/images/sellers/benjamin-jusic.jpg"
+      },
+      "description": "Prirodan med direktno od pčelara",
+      "longDescription": "Kaduljin med je prirodan med sačuvan iz nektara kaduljine. Karakterističan okus i ljekovita svojstva.",
+      "price": 19,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Multifloral Honey (1).jpg",
+      "images": [
+        "/images/products/Multifloral Honey (1).jpg",
+        "/images/products/Multifloral Honey (1).jpg"
+      ],
+      "category": "kaduljin-med",
+      "categorySlug": "kaduljin-med",
+      "additives": [
+        "med-sa-maticnom-mlijecju"
+      ],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.9,
+      "reviews": 50,
+      "inStock": true,
+      "stock": 56,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Kaduljin med sa matičnom mliječi bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 47,
+      "name": "Kaduljin med",
+      "slug": "kaduljin-med-47",
+      "seller": {
+        "id": 48,
+        "name": "Mirza Čaušević",
+        "location": "Tuzla",
+        "avatar": "/images/sellers/mirza-causevic.jpg"
+      },
+      "description": "Med sačuvan u prirodnim uvjetima",
+      "longDescription": "Kaduljin med je prirodan med sačuvan iz nektara kaduljine. Karakterističan okus i ljekovita svojstva.",
+      "price": 13,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/HONEY JAR.jpg",
+      "images": [
+        "/images/products/HONEY JAR.jpg",
+        "/images/products/HONEY JAR.jpg"
+      ],
+      "category": "kaduljin-med",
+      "categorySlug": "kaduljin-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.4,
+      "reviews": 6,
+      "inStock": true,
+      "stock": 22,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Kaduljin med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 48,
+      "name": "Kaduljin med",
+      "slug": "kaduljin-med-48",
+      "seller": {
+        "id": 49,
+        "name": "Dženan Kovačević",
+        "location": "Banja Luka",
+        "avatar": "/images/sellers/dzenan-kovacevic.jpg"
+      },
+      "description": "Premium kvalitet meda",
+      "longDescription": "Kaduljin med je prirodan med sačuvan iz nektara kaduljine. Karakterističan okus i ljekovita svojstva.",
+      "price": 20,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/delicious-honey-dark-surface.jpg",
+      "images": [
+        "/images/products/delicious-honey-dark-surface.jpg",
+        "/images/products/delicious-honey-dark-surface.jpg"
+      ],
+      "category": "kaduljin-med",
+      "categorySlug": "kaduljin-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.6,
+      "reviews": 96,
+      "inStock": true,
+      "stock": 53,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Kaduljin med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 49,
+      "name": "Kaduljin med sa bademima",
+      "slug": "kaduljin-med-sa-bademima-49",
+      "seller": {
+        "id": 50,
+        "name": "Haris Dervišević",
+        "location": "Doboj",
+        "avatar": "/images/sellers/haris-dervisevic.jpg"
+      },
+      "description": "Med sačuvan tradicionalnom metodom",
+      "longDescription": "Kaduljin med je prirodan med sačuvan iz nektara kaduljine. Karakterističan okus i ljekovita svojstva.",
+      "price": 14,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/new (1).avif",
+      "images": [
+        "/images/products/new (1).avif",
+        "/images/products/new (1).avif"
+      ],
+      "category": "kaduljin-med",
+      "categorySlug": "kaduljin-med",
+      "additives": [
+        "med-sa-bademima"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.2,
+      "reviews": 101,
+      "inStock": true,
+      "stock": 11,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Kaduljin med sa bademima bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Šumski med",
+      "slug": "sumski-med-50",
+      "seller": {
+        "id": 51,
+        "name": "Tarik Begović",
+        "location": "Sanski Most",
+        "avatar": "/images/sellers/tarik-begovic.jpg"
+      },
+      "description": "Med sačuvan ručnom metodom",
+      "longDescription": "Šumski med je tamniji med sačuvan iz šumskog nektara. Bogat okus i visok kvalitet.",
+      "price": 15,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Натуральный цветочный мёд с ароматной веточкой сосны.jpg",
+      "images": [
+        "/images/products/Натуральный цветочный мёд с ароматной веточкой сосны.jpg",
+        "/images/products/Натуральный цветочный мёд с ароматной веточкой сосны.jpg"
+      ],
+      "category": "sumski-med",
+      "categorySlug": "sumski-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4,
+      "reviews": 76,
+      "inStock": true,
+      "stock": 40,
+      "badge": "novo-u-ponudi",
+      "badgeText": "NOVO U PONUDI",
+      "keyCharacteristics": {
+        "vrstaMeda": "Šumski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 51,
+      "name": "Šumski med",
+      "slug": "sumski-med-51",
+      "seller": {
+        "id": 52,
+        "name": "Dino Mulić",
+        "location": "Zenica",
+        "avatar": "/images/sellers/dino-mulic.jpg"
+      },
+      "description": "Svijetao, blag i ljekovit",
+      "longDescription": "Šumski med je tamniji med sačuvan iz šumskog nektara. Bogat okus i visok kvalitet.",
+      "price": 19,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Мёд _ Honig _ Honey.jpg",
+      "images": [
+        "/images/products/Мёд _ Honig _ Honey.jpg",
+        "/images/products/Мёд _ Honig _ Honey.jpg"
+      ],
+      "category": "sumski-med",
+      "categorySlug": "sumski-med",
+      "additives": [],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.9,
+      "reviews": 39,
+      "inStock": true,
+      "stock": 37,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Šumski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 52,
+      "name": "Šumski med",
+      "slug": "sumski-med-52",
+      "seller": {
+        "id": 53,
+        "name": "Faruk Avdić",
+        "location": "Travnik",
+        "avatar": "/images/sellers/faruk-avdic.jpg"
+      },
+      "description": "Organski certificirani med",
+      "longDescription": "Šumski med je tamniji med sačuvan iz šumskog nektara. Bogat okus i visok kvalitet.",
+      "price": 21,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Glass Honey Jar with Wooden Lid and Honey Dipper Stick - 350ml Airtight Borosilicate Honey Pot _ Kitchen Storage, Rustic Decor and Gift.jpg",
+      "images": [
+        "/images/products/Glass Honey Jar with Wooden Lid and Honey Dipper Stick - 350ml Airtight Borosilicate Honey Pot _ Kitchen Storage, Rustic Decor and Gift.jpg",
+        "/images/products/Glass Honey Jar with Wooden Lid and Honey Dipper Stick - 350ml Airtight Borosilicate Honey Pot _ Kitchen Storage, Rustic Decor and Gift.jpg"
+      ],
+      "category": "sumski-med",
+      "categorySlug": "sumski-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.1,
+      "reviews": 16,
+      "inStock": true,
+      "stock": 37,
+      "badge": "novo-u-ponudi",
+      "badgeText": "NOVO U PONUDI",
+      "keyCharacteristics": {
+        "vrstaMeda": "Šumski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 53,
+      "name": "Šumski med",
+      "slug": "sumski-med-53",
+      "seller": {
+        "id": 54,
+        "name": "Nedim Hadžić",
+        "location": "Trebinje",
+        "avatar": "/images/sellers/nedim-hadzic.jpg"
+      },
+      "description": "Kvalitetan med sa domaćih livada",
+      "longDescription": "Šumski med je tamniji med sačuvan iz šumskog nektara. Bogat okus i visok kvalitet.",
+      "price": 18,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/AI Images (4k) - Freepik (220824321004).jpg",
+      "images": [
+        "/images/products/AI Images (4k) - Freepik (220824321004).jpg",
+        "/images/products/AI Images (4k) - Freepik (220824321004).jpg"
+      ],
+      "category": "sumski-med",
+      "categorySlug": "sumski-med",
+      "additives": [],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.1,
+      "reviews": 76,
+      "inStock": true,
+      "stock": 41,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Šumski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 54,
+      "name": "Šumski med",
+      "slug": "sumski-med-54",
+      "seller": {
+        "id": 55,
+        "name": "Haris Dervišević",
+        "location": "Mostar",
+        "avatar": "/images/sellers/haris-dervisevic.jpg"
+      },
+      "description": "Prirodan med direktno od pčelara",
+      "longDescription": "Šumski med je tamniji med sačuvan iz šumskog nektara. Bogat okus i visok kvalitet.",
+      "price": 22,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Raw Unpasteurized Local Ontario Honey.jpg",
+      "images": [
+        "/images/products/Raw Unpasteurized Local Ontario Honey.jpg",
+        "/images/products/Raw Unpasteurized Local Ontario Honey.jpg"
+      ],
+      "category": "sumski-med",
+      "categorySlug": "sumski-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.3,
+      "reviews": 31,
+      "inStock": true,
+      "stock": 14,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Šumski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 55,
+      "name": "Šumski med",
+      "slug": "sumski-med-55",
+      "seller": {
+        "id": 56,
+        "name": "Amir Hasanović",
+        "location": "Zenica",
+        "avatar": "/images/sellers/amir-hasanovic.jpg"
+      },
+      "description": "Svijetao, blag i ljekovit",
+      "longDescription": "Šumski med je tamniji med sačuvan iz šumskog nektara. Bogat okus i visok kvalitet.",
+      "price": 19,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/new (3).jpg",
+      "images": [
+        "/images/products/new (3).jpg",
+        "/images/products/new (3).jpg"
+      ],
+      "category": "sumski-med",
+      "categorySlug": "sumski-med",
+      "additives": [],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.5,
+      "reviews": 76,
+      "inStock": true,
+      "stock": 54,
+      "badge": "najprodavanije",
+      "badgeText": "NAJPRODAVANIJE",
+      "keyCharacteristics": {
+        "vrstaMeda": "Šumski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 56,
+      "name": "Šumski med",
+      "slug": "sumski-med-56",
+      "seller": {
+        "id": 57,
+        "name": "Benjamin Jusić",
+        "location": "Jajce",
+        "avatar": "/images/sellers/benjamin-jusic.jpg"
+      },
+      "description": "Med sačuvan tradicionalnom metodom",
+      "longDescription": "Šumski med je tamniji med sačuvan iz šumskog nektara. Bogat okus i visok kvalitet.",
+      "price": 17,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/med sa orasima.jpg",
+      "images": [
+        "/images/products/med sa orasima.jpg",
+        "/images/products/med sa orasima.jpg"
+      ],
+      "category": "sumski-med",
+      "categorySlug": "sumski-med",
+      "additives": [],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.1,
+      "reviews": 58,
+      "inStock": true,
+      "stock": 17,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Šumski med bez dodatih šećera",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 57,
+      "name": "Planinski med sa orasima",
+      "slug": "med-sa-orasima-57",
+      "seller": {
+        "id": 58,
+        "name": "Amir Hasanović",
+        "location": "Bihać",
+        "avatar": "/images/sellers/amir-hasanovic.jpg"
+      },
+      "description": "Med sačuvan u staklenim posudama",
+      "longDescription": "Planinski med sa orasima je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 20,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Madagascar Bourbon  Vanilla Bean Infused Honey.jpg",
+      "images": [
+        "/images/products/Madagascar Bourbon  Vanilla Bean Infused Honey.jpg",
+        "/images/products/Madagascar Bourbon  Vanilla Bean Infused Honey.jpg"
+      ],
+      "category": "planinski-med",
+      "categorySlug": "planinski-med",
+      "additives": [
+        "med-sa-orasima"
+      ],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.8,
+      "reviews": 39,
+      "inStock": true,
+      "stock": 28,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Planinski med sa orasima",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 58,
+      "name": "Planinski med sa orasima",
+      "slug": "med-sa-orasima-58",
+      "seller": {
+        "id": 59,
+        "name": "Kenan Smajlović",
+        "location": "Bihać",
+        "avatar": "/images/sellers/kenan-smajlovic.jpg"
+      },
+      "description": "Prirodan med bez konzervansa",
+      "longDescription": "Planinski med sa orasima je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 22,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/honey-4926892_1280.jpg",
+      "images": [
+        "/images/products/honey-4926892_1280.jpg",
+        "/images/products/honey-4926892_1280.jpg"
+      ],
+      "category": "planinski-med",
+      "categorySlug": "planinski-med",
+      "additives": [
+        "med-sa-orasima"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.3,
+      "reviews": 31,
+      "inStock": true,
+      "stock": 15,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Planinski med sa orasima",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 59,
+      "name": "Četinarski med sa orasima",
+      "slug": "med-sa-orasima-59",
+      "seller": {
+        "id": 60,
+        "name": "Omer Mujić",
+        "location": "Mostar",
+        "avatar": "/images/sellers/omer-mujic.jpg"
+      },
+      "description": "Med sačuvan ručnom metodom",
+      "longDescription": "Četinarski med sa orasima je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 19,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Front view honey in a jar with a wooden spoon and green grapes and on a wooden background _ Free Photo.jpg",
+      "images": [
+        "/images/products/Front view honey in a jar with a wooden spoon and green grapes and on a wooden background _ Free Photo.jpg",
+        "/images/products/Front view honey in a jar with a wooden spoon and green grapes and on a wooden background _ Free Photo.jpg"
+      ],
+      "category": "cetinarski-med",
+      "categorySlug": "cetinarski-med",
+      "additives": [
+        "med-sa-orasima"
+      ],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.3,
+      "reviews": 37,
+      "inStock": true,
+      "stock": 24,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Četinarski med sa orasima",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 60,
+      "name": "Bagremov med sa bademima",
+      "slug": "med-sa-bademima-60",
+      "seller": {
+        "id": 61,
+        "name": "Benjamin Jusić",
+        "location": "Bugojno",
+        "avatar": "/images/sellers/benjamin-jusic.jpg"
+      },
+      "description": "Prirodan med sa planina",
+      "longDescription": "Bagremov med sa bademima je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 23,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Honey jar with spoon and lavender _ Free Photo.jpg",
+      "images": [
+        "/images/products/Honey jar with spoon and lavender _ Free Photo.jpg",
+        "/images/products/Honey jar with spoon and lavender _ Free Photo.jpg"
+      ],
+      "category": "bagremov-med",
+      "categorySlug": "bagremov-med",
+      "additives": [
+        "med-sa-bademima"
+      ],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.6,
+      "reviews": 29,
+      "inStock": true,
+      "stock": 12,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Bagremov med sa bademima",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 61,
+      "name": "Bagremov med sa bademima",
+      "slug": "med-sa-bademima-61",
+      "seller": {
+        "id": 62,
+        "name": "Omer Mujić",
+        "location": "Tuzla",
+        "avatar": "/images/sellers/omer-mujic.jpg"
+      },
+      "description": "Vrhunski kvalitet, ručno vrcano",
+      "longDescription": "Bagremov med sa bademima je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 23,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/download (1).jpg",
+      "images": [
+        "/images/products/download (1).jpg",
+        "/images/products/download (1).jpg"
+      ],
+      "category": "bagremov-med",
+      "categorySlug": "bagremov-med",
+      "additives": [
+        "med-sa-bademima"
+      ],
+      "season": "proljetni-med",
+      "seasonSlug": "proljetni-med",
+      "rating": 4.5,
+      "reviews": 22,
+      "inStock": true,
+      "stock": 42,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Bagremov med sa bademima",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 62,
+      "name": "Četinarski med sa bademima",
+      "slug": "med-sa-bademima-62",
+      "seller": {
+        "id": 63,
+        "name": "Dženan Kovačević",
+        "location": "Konjic",
+        "avatar": "/images/sellers/dzenan-kovacevic.jpg"
+      },
+      "description": "Med sačuvan ručnom metodom",
+      "longDescription": "Četinarski med sa bademima je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 18,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/100% Raw Orange Blossom Honey.jpg",
+      "images": [
+        "/images/products/100% Raw Orange Blossom Honey.jpg",
+        "/images/products/100% Raw Orange Blossom Honey.jpg"
+      ],
+      "category": "cetinarski-med",
+      "categorySlug": "cetinarski-med",
+      "additives": [
+        "med-sa-bademima"
+      ],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.3,
+      "reviews": 52,
+      "inStock": true,
+      "stock": 25,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Četinarski med sa bademima",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 63,
+      "name": "Šumski med sa lješnacima",
+      "slug": "med-sa-ljesnacima-63",
+      "seller": {
+        "id": 64,
+        "name": "Faruk Avdić",
+        "location": "Zenica",
+        "avatar": "/images/sellers/faruk-avdic.jpg"
+      },
+      "description": "Med sačuvan ručnom metodom",
+      "longDescription": "Šumski med sa lješnacima je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 20,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Smielatura 2022.jpg",
+      "images": [
+        "/images/products/Smielatura 2022.jpg",
+        "/images/products/Smielatura 2022.jpg"
+      ],
+      "category": "sumski-med",
+      "categorySlug": "sumski-med",
+      "additives": [
+        "med-sa-ljesnacima"
+      ],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.4,
+      "reviews": 6,
+      "inStock": true,
+      "stock": 36,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Šumski med sa lješnacima",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 64,
+      "name": "Četinarski med sa lješnacima",
+      "slug": "med-sa-ljesnacima-64",
+      "seller": {
+        "id": 65,
+        "name": "Amir Hasanović",
+        "location": "Goražde",
+        "avatar": "/images/sellers/amir-hasanovic.jpg"
+      },
+      "description": "Organski certificirani med",
+      "longDescription": "Četinarski med sa lješnacima je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 15,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/10 Of The Longest Lasting Things In The World.jpg",
+      "images": [
+        "/images/products/10 Of The Longest Lasting Things In The World.jpg",
+        "/images/products/10 Of The Longest Lasting Things In The World.jpg"
+      ],
+      "category": "cetinarski-med",
+      "categorySlug": "cetinarski-med",
+      "additives": [
+        "med-sa-ljesnacima"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.3,
+      "reviews": 45,
+      "inStock": true,
+      "stock": 43,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Četinarski med sa lješnacima",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 65,
+      "name": "Livadski med sa lješnacima",
+      "slug": "med-sa-ljesnacima-65",
+      "seller": {
+        "id": 66,
+        "name": "Emir Hodžić",
+        "location": "Bihać",
+        "avatar": "/images/sellers/emir-hodzic.jpg"
+      },
+      "description": "Svijetao, blag i ljekovit",
+      "longDescription": "Livadski med sa lješnacima je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 22,
+      "currency": "BAM",
+      "weight": "850g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Golden Turmeric Honey.jpg",
+      "images": [
+        "/images/products/Golden Turmeric Honey.jpg",
+        "/images/products/Golden Turmeric Honey.jpg"
+      ],
+      "category": "livadski-med",
+      "categorySlug": "livadski-med",
+      "additives": [
+        "med-sa-ljesnacima"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.7,
+      "reviews": 23,
+      "inStock": true,
+      "stock": 13,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Livadski med sa lješnacima",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 66,
+      "name": "Bagremov med sa đumbirom",
+      "slug": "med-sa-dumbirom-66",
+      "seller": {
+        "id": 67,
+        "name": "Dženan Kovačević",
+        "location": "Travnik",
+        "avatar": "/images/sellers/dzenan-kovacevic.jpg"
+      },
+      "description": "Med sačuvan u staklenim posudama",
+      "longDescription": "Bagremov med sa đumbirom je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 22,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/new (1).webp",
+      "images": [
+        "/images/products/new (1).webp",
+        "/images/products/new (1).webp"
+      ],
+      "category": "bagremov-med",
+      "categorySlug": "bagremov-med",
+      "additives": [
+        "med-sa-dumbirom"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4,
+      "reviews": 30,
+      "inStock": true,
+      "stock": 30,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Bagremov med sa đumbirom",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 67,
+      "name": "Cvjetni med sa đumbirom",
+      "slug": "med-sa-dumbirom-67",
+      "seller": {
+        "id": 68,
+        "name": "Haris Dervišević",
+        "location": "Mostar",
+        "avatar": "/images/sellers/haris-dervisevic.jpg"
+      },
+      "description": "Kvalitetan med sa domaćih livada",
+      "longDescription": "Cvjetni med sa đumbirom je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 19,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/bees-frame-garden-photo-lg.jpeg",
+      "images": [
+        "/images/products/bees-frame-garden-photo-lg.jpeg",
+        "/images/products/bees-frame-garden-photo-lg.jpeg"
+      ],
+      "category": "cvjetni-med",
+      "categorySlug": "cvjetni-med",
+      "additives": [
+        "med-sa-dumbirom"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.9,
+      "reviews": 36,
+      "inStock": true,
+      "stock": 6,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Cvjetni med sa đumbirom",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 68,
+      "name": "Cvjetni med sa đumbirom",
+      "slug": "med-sa-dumbirom-68",
+      "seller": {
+        "id": 69,
+        "name": "Nedim Hadžić",
+        "location": "Trebinje",
+        "avatar": "/images/sellers/nedim-hadzic.jpg"
+      },
+      "description": "Prirodan med bez konzervansa",
+      "longDescription": "Cvjetni med sa đumbirom je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 19,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Sweet, Kentucky Proud honey_.jpg",
+      "images": [
+        "/images/products/Sweet, Kentucky Proud honey_.jpg",
+        "/images/products/Sweet, Kentucky Proud honey_.jpg"
+      ],
+      "category": "cvjetni-med",
+      "categorySlug": "cvjetni-med",
+      "additives": [
+        "med-sa-dumbirom"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.9,
+      "reviews": 25,
+      "inStock": true,
+      "stock": 37,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Cvjetni med sa đumbirom",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 69,
+      "name": "Šumski med sa matičnom mliječi",
+      "slug": "med-sa-maticnom-mlijecju-69",
+      "seller": {
+        "id": 70,
+        "name": "Haris Dervišević",
+        "location": "Sarajevo",
+        "avatar": "/images/sellers/haris-dervisevic.jpg"
+      },
+      "description": "Prirodan med direktno od pčelara",
+      "longDescription": "Šumski med sa matičnom mliječi je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 16,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Lang Wei Jin Student Packaging Design Concept for Bee My Honey - World Brand Design Society.jpg",
+      "images": [
+        "/images/products/Lang Wei Jin Student Packaging Design Concept for Bee My Honey - World Brand Design Society.jpg",
+        "/images/products/Lang Wei Jin Student Packaging Design Concept for Bee My Honey - World Brand Design Society.jpg"
+      ],
+      "category": "sumski-med",
+      "categorySlug": "sumski-med",
+      "additives": [
+        "med-sa-maticnom-mlijecju"
+      ],
+      "season": "ljetnji-med",
+      "seasonSlug": "ljetnji-med",
+      "rating": 4.9,
+      "reviews": 13,
+      "inStock": true,
+      "stock": 41,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Šumski med sa matičnom mliječi",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 70,
+      "name": "Bagremov med sa matičnom mliječi",
+      "slug": "med-sa-maticnom-mlijecju-70",
+      "seller": {
+        "id": 71,
+        "name": "Adnan Karić",
+        "location": "Goražde",
+        "avatar": "/images/sellers/adnan-karic.jpg"
+      },
+      "description": "Prirodan med bez konzervansa",
+      "longDescription": "Bagremov med sa matičnom mliječi je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 22,
+      "currency": "BAM",
+      "weight": "450g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/honey-823614_1280.jpg",
+      "images": [
+        "/images/products/honey-823614_1280.jpg",
+        "/images/products/honey-823614_1280.jpg"
+      ],
+      "category": "bagremov-med",
+      "categorySlug": "bagremov-med",
+      "additives": [
+        "med-sa-maticnom-mlijecju"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.2,
+      "reviews": 28,
+      "inStock": true,
+      "stock": 13,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Bagremov med sa matičnom mliječi",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    },
+    {
+      "id": 71,
+      "name": "Livadski med sa matičnom mliječi",
+      "slug": "med-sa-maticnom-mlijecju-71",
+      "seller": {
+        "id": 72,
+        "name": "Kenan Smajlović",
+        "location": "Doboj",
+        "avatar": "/images/sellers/kenan-smajlovic.jpg"
+      },
+      "description": "Prirodan med sa planina",
+      "longDescription": "Livadski med sa matičnom mliječi je kombinacija prirodnog meda i kvalitetnih dodataka.",
+      "price": 18,
+      "currency": "BAM",
+      "weight": "250g",
+      "availableWeights": [
+        "250g",
+        "450g",
+        "850g"
+      ],
+      "image": "/images/products/Golden Turmeric Honey (1).jpg",
+      "images": [
+        "/images/products/Golden Turmeric Honey (1).jpg",
+        "/images/products/Golden Turmeric Honey (1).jpg"
+      ],
+      "category": "livadski-med",
+      "categorySlug": "livadski-med",
+      "additives": [
+        "med-sa-maticnom-mlijecju"
+      ],
+      "season": "jesenji-med",
+      "seasonSlug": "jesenji-med",
+      "rating": 4.5,
+      "reviews": 28,
+      "inStock": true,
+      "stock": 14,
+      "badge": null,
+      "badgeText": null,
+      "keyCharacteristics": {
+        "vrstaMeda": "Livadski med sa matičnom mliječi",
+        "dostupnaPakovanja": "250g, 450g, 850g",
+        "bojaITekstura": "Prirodna boja i tekstura",
+        "ukus": "Blag i prirodan okus"
+      }
+    }
+  ]
+}

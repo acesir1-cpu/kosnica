@@ -2,25 +2,452 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --foreground: #1a1a1a;
+  
+  /* Košnica.ba Color Palette - Aligned with site design */
+  
+  /* Primary Gold/Amber - Main brand color (matches your logo and CTAs) */
+  --gold-50: #fffdf7;
+  --gold-100: #fef9e7;
+  --gold-200: #fef0c7;
+  --gold-300: #fde49a;
+  --gold-400: #f5c852;
+  --gold-500: #d4a72c;  /* Primary - Your button color */
+  --gold-600: #b8901f;
+  --gold-700: #8c6d15;
+  --gold-800: #6b5310;
+  --gold-900: #4a390b;
+  
+  /* Warm Browns - Text and accents */
+  --brown-50: #faf8f5;
+  --brown-100: #f5f1eb;
+  --brown-200: #e8e0d4;
+  --brown-300: #d4c6b0;
+  --brown-400: #b8a589;
+  --brown-500: #8b7355;
+  --brown-600: #6d5940;
+  --brown-700: #4a3d2b;
+  --brown-800: #332a1e;
+  --brown-900: #1f1710;
+  
+  /* Accent Colors */
+  --honey-gold: #d4a72c;    /* Main CTA buttons */
+  --honey-light: #f5c852;   /* Hover states */
+  --cream: #fafaf9;         /* Backgrounds - neutral beige */
+  --warm-white: #fffdf7;    /* Sections */
+  --dark-text: #1a1a1a;     /* Headers */
+  --body-text: #4a3d2b;     /* Body text */
+  
+  /* Link Accent - Warm Brown */
+  --blue-primary: #8b7355;  /* Warm brown for links and accents - breaks monotony, harmonizes with palette */
+  --blue-light: rgba(139, 115, 85, 0.1); /* Light warm brown background */
+  --blue-hover: #6d5940;    /* Darker warm brown for hover states */
+  
+  /* Green Accent - Fresh Sage */
+  --green-primary: #84a87a;  /* Fresh sage green with warm undertones - natural and harmonious */
+  --green-light: rgba(132, 168, 122, 0.1); /* Light sage green background */
+  --green-hover: #6b8e5a;    /* Darker sage green for hover states */
+  
+  /* Price Color - Deep Bronze */
+  --price-color: #b45309;    /* Deep bronze/amber for prices - stands out, premium feel */
+  --price-light: rgba(180, 83, 9, 0.1); /* Light bronze background */
+  
+  /* Functional Colors */
+  --border-light: #e8e0d4;
+  --shadow: rgba(74, 61, 43, 0.1);
+  
+  /* Font variables */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-serif);
+  --font-inter: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* @tailwindcss/theme - Tailwind CSS v4 theme configuration */
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--honey-gold);
+  --color-primary-hover: var(--honey-light);
+  --color-accent: var(--brown-600);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-serif);
+  --font-inter: var(--font-inter);
+  
+  /* Gold scale */
+  --color-gold-50: var(--gold-50);
+  --color-gold-100: var(--gold-100);
+  --color-gold-200: var(--gold-200);
+  --color-gold-300: var(--gold-300);
+  --color-gold-400: var(--gold-400);
+  --color-gold-500: var(--gold-500);
+  --color-gold-600: var(--gold-600);
+  --color-gold-700: var(--gold-700);
+  --color-gold-800: var(--gold-800);
+  --color-gold-900: var(--gold-900);
+  
+  /* Brown scale */
+  --color-brown-50: var(--brown-50);
+  --color-brown-100: var(--brown-100);
+  --color-brown-200: var(--brown-200);
+  --color-brown-300: var(--brown-300);
+  --color-brown-400: var(--brown-400);
+  --color-brown-500: var(--brown-500);
+  --color-brown-600: var(--brown-600);
+  --color-brown-700: var(--brown-700);
+  --color-brown-800: var(--brown-800);
+  --color-brown-900: var(--brown-900);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Luxury serif font styling */
+.font-serif-luxury {
+  font-family: var(--font-serif);
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+/* Clean tech-forward sans-serif */
+.font-sans-clean {
+  font-family: var(--font-inter);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Hero image oval shape */
+.hero-image-oval {
+  border-radius: 40% 40% 60% 60% / 50% 50% 60% 60%;
+}
+
+/* Utility classes matching your site's style */
+.btn-primary {
+  background-color: var(--honey-gold);
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--honey-light);
+}
+
+.text-accent {
+  color: var(--honey-gold);
+}
+
+.bg-cream {
+  background-color: var(--cream);
+}
+
+.bg-warm-white {
+  background-color: var(--warm-white);
+}
+
+.text-body {
+  color: var(--body-text);
+}
+
+.text-honey-gold {
+  color: var(--honey-gold);
+}
+
+.border-honey-gold {
+  border-color: var(--honey-gold);
+}
+
+.border-light {
+  border-color: var(--border-light);
+}
+
+/* Hero button shared styles */
+.hero-button {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0 32px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.02em;
+}
+
+/* Scroll indicator animation */
+@keyframes scroll-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.animate-scroll-bounce {
+  animation: scroll-bounce 2s ease-in-out infinite;
+}
+
+/* Hero jump animation to suggest scrolling */
+@keyframes hero-jump {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-8px);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.hero-jump-animation {
+  animation: hero-jump 2s ease-in-out;
+}
+
+/* Fade in animation for scroll sections */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out forwards;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(100%) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 167, 44, 0.3);
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 167, 44, 0.5);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 167, 44, 0.3) transparent;
+}
+
+/* Custom Radio Button Styling */
+input[type="radio"] {
+  accent-color: var(--honey-gold);
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  accent-color: var(--honey-gold);
+}
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+input[type="radio"]:checked::before {
+  background-color: var(--honey-gold) !important;
+  border-color: var(--honey-gold) !important;
+}
+
+/* Custom styling for radio buttons to ensure honey-gold fill */
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--border-light);
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+input[type="radio"]:hover {
+  border-color: var(--honey-gold);
+}
+
+input[type="radio"]:checked {
+  border-color: var(--honey-gold);
+  background-color: white;
+}
+
+input[type="radio"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--honey-gold);
+}
+
+/* Chat animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}
+
+@keyframes gentle-pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 8px 24px rgba(212, 167, 44, 0.4);
+  }
+  30% {
+    transform: scale(1.12);
+    box-shadow: 0 14px 36px rgba(212, 167, 44, 0.55), 0 0 0 6px rgba(212, 167, 44, 0.12);
+  }
+  60% {
+    transform: scale(1.08);
+    box-shadow: 0 12px 32px rgba(212, 167, 44, 0.5), 0 0 0 4px rgba(212, 167, 44, 0.08);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 8px 24px rgba(212, 167, 44, 0.4);
+  }
+}
+
+/* Price Range Slider Styles */
+.price-range-slider input[type="range"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 48px;
+  background: transparent;
+  outline: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: grab;
+  margin: 0;
+  padding: 0;
+  touch-action: none;
+}
+
+.price-range-slider input[type="range"]:active {
+  cursor: grabbing;
+}
+
+.price-range-slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid var(--honey-gold);
+  cursor: grab;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.15s ease;
+  margin-top: -6px;
+  position: relative;
+  z-index: 50;
+}
+
+.price-range-slider input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 4px 8px rgba(212, 167, 44, 0.5);
+}
+
+.price-range-slider input[type="range"]::-webkit-slider-thumb:active {
+  cursor: grabbing;
+  transform: scale(1.2);
+  box-shadow: 0 6px 12px rgba(212, 167, 44, 0.6);
+}
+
+.price-range-slider input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid var(--honey-gold);
+  cursor: grab;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.15s ease;
+  position: relative;
+  z-index: 50;
+}
+
+.price-range-slider input[type="range"]::-moz-range-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 4px 8px rgba(212, 167, 44, 0.5);
+}
+
+.price-range-slider input[type="range"]::-moz-range-thumb:active {
+  cursor: grabbing;
+  transform: scale(1.2);
+  box-shadow: 0 6px 12px rgba(212, 167, 44, 0.6);
+}
+
+.price-range-slider input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.price-range-slider input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  background: transparent;
+  cursor: pointer;
 }
