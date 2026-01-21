@@ -30,7 +30,8 @@ const nextConfig: NextConfig = {
 
 
   // Output configuration
-  output: 'standalone', // Optimized for production deployment
+  // Using default output instead of standalone for better Render compatibility
+  // output: 'standalone', // Commented out - using default Next.js output for Render
 };
 
 export default nextConfig;
