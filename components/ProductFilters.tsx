@@ -340,7 +340,7 @@ export default function ProductFilters({ filters, onFilterChange }: ProductFilte
                     setDisplayMinPrice(newMin);
                     handlePriceChange(newMin, displayMaxPrice, true);
                   }}
-                  className="w-full px-3 py-2 border rounded-lg text-sm transition-all focus:outline-none focus:ring-2"
+                  className="w-full py-2 border rounded-lg text-sm transition-all focus:outline-none focus:ring-2 pr-10 pl-3"
                   style={{
                     borderColor: 'var(--border-light)',
                     fontFamily: 'var(--font-inter)',
@@ -352,7 +352,7 @@ export default function ProductFilters({ filters, onFilterChange }: ProductFilte
                     e.currentTarget.style.boxShadow = '0 0 0 3px rgba(212, 167, 44, 0.1)';
                   }}
                 />
-                <span className="absolute right-3 top-1/2 -translate-y-1/2 text-xs pointer-events-none" style={{ color: 'var(--body-text)' }}>
+                <span className="absolute right-2 top-1/2 -translate-y-1/2 text-xs pointer-events-none whitespace-nowrap" style={{ color: 'var(--body-text)' }}>
                   KM
                 </span>
               </div>
@@ -380,7 +380,7 @@ export default function ProductFilters({ filters, onFilterChange }: ProductFilte
                     setDisplayMaxPrice(newMax);
                     handlePriceChange(displayMinPrice, newMax, true);
                   }}
-                  className="w-full px-3 py-2 border rounded-lg text-sm transition-all focus:outline-none focus:ring-2"
+                  className="w-full py-2 border rounded-lg text-sm transition-all focus:outline-none focus:ring-2 pr-10 pl-3"
                   style={{
                     borderColor: 'var(--border-light)',
                     fontFamily: 'var(--font-inter)',
@@ -392,7 +392,7 @@ export default function ProductFilters({ filters, onFilterChange }: ProductFilte
                     e.currentTarget.style.boxShadow = '0 0 0 3px rgba(212, 167, 44, 0.1)';
                   }}
                 />
-                <span className="absolute right-3 top-1/2 -translate-y-1/2 text-xs pointer-events-none" style={{ color: 'var(--body-text)' }}>
+                <span className="absolute right-2 top-1/2 -translate-y-1/2 text-xs pointer-events-none whitespace-nowrap" style={{ color: 'var(--body-text)' }}>
                   KM
                 </span>
               </div>

@@ -264,12 +264,21 @@ export default function ProductDetailPage() {
                     aria-label={`Prikaži sliku ${index + 1}`}
                   >
                     <Image
-                      src={image}
+                      src={encodeURI(image)}
                       alt={`${product.name} ${index + 1}`}
                       fill
                       className="object-cover"
                       sizes="64px"
                       loading="lazy"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        // Try main product image as fallback
+                        if (product.image && encodeURI(product.image) !== target.src) {
+                          target.src = encodeURI(product.image);
+                        } else {
+                          target.style.display = 'none';
+                        }
+                      }}
                     />
                     {selectedImageIndex === index && (
                       <div className="absolute inset-0 border-2 rounded-md" style={{ borderColor: 'var(--honey-gold)' }} />
@@ -282,12 +291,29 @@ export default function ProductDetailPage() {
             {/* Main Image */}
             <div className="relative flex-1 aspect-square rounded-xl overflow-hidden bg-white border-2 shadow-sm group" style={{ borderColor: 'var(--border-light)' }}>
               <Image
-                src={product.images[selectedImageIndex] || product.image}
+                src={encodeURI(product.images[selectedImageIndex] || product.image)}
                 alt={product.name}
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  // Try main product image as fallback
+                  if (product.image && encodeURI(product.image) !== target.src) {
+                    target.src = encodeURI(product.image);
+                  } else if (product.images && product.images.length > 0) {
+                    // Try first image from array
+                    const fallback = product.images.find(img => encodeURI(img) !== target.src);
+                    if (fallback) {
+                      target.src = encodeURI(fallback);
+                    } else {
+                      target.style.display = 'none';
+                    }
+                  } else {
+                    target.style.display = 'none';
+                  }
+                }}
               />
             </div>
           </div>
@@ -805,11 +831,20 @@ export default function ProductDetailPage() {
                 {/* Main Apiary/Workspace Image */}
                 <div className="relative w-full h-[600px] rounded-2xl overflow-hidden" style={{ borderRadius: '1rem 0 1rem 1rem' }}>
                   <Image
-                    src={product.image}
+                    src={encodeURI(product.image)}
                     alt={`Košnice - ${product.seller.name}`}
                     fill
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, 50vw"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      // Try first image from images array if available
+                      if (product.images && product.images.length > 0) {
+                        target.src = encodeURI(product.images[0]);
+                      } else {
+                        target.style.display = 'none';
+                      }
+                    }}
                   />
                 </div>
 

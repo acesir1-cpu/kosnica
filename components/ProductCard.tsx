@@ -168,15 +168,25 @@ export default function ProductCard({ product, selectedWeight, hideSellerAvatar 
       }}
     >
       {/* Image Section */}
-      <div className="relative w-full h-64 max-md:h-56 max-sm:h-48 overflow-hidden">
+      <div className="relative w-full h-64 max-md:h-56 max-sm:h-48 overflow-hidden bg-gray-100">
         <Image
-          src={product.image}
+          src={encodeURI(product.image)}
           alt={product.name}
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-110"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           priority={priority}
           loading={priority ? undefined : 'lazy'}
+          onError={(e) => {
+            // Try to use first image from images array if available
+            const target = e.target as HTMLImageElement;
+            if (product.images && product.images.length > 0 && product.images[0] !== product.image) {
+              target.src = encodeURI(product.images[0]);
+            } else {
+              // Hide image if no fallback available
+              target.style.display = 'none';
+            }
+          }}
         />
         {/* Overlay on hover */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
