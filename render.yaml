@@ -13,7 +13,7 @@ services:
       - key: JWT_EXPIRES_IN
         value: 7d
       - key: DISABLE_IMAGE_OPTIMIZATION
-        value: "true"  # Disable image optimization for Render compatibility
+        value: "false"  # Enable image optimization for better performance
       # Add other environment variables as needed
     healthCheckPath: /
     autoDeploy: true
