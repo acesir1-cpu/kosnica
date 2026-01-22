@@ -270,6 +270,7 @@ export default function ProductDetailPage() {
                       className="object-cover"
                       sizes="64px"
                       loading="lazy"
+                      quality={75}
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         // Try main product image as fallback
@@ -297,6 +298,7 @@ export default function ProductDetailPage() {
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
+                quality={90}
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   // Always try main product image first as fallback

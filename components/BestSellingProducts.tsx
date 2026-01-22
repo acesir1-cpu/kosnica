@@ -316,6 +316,7 @@ function ProductCard({ product, onAddToCart, priority = false }: ProductCardProp
           sizes="320px"
           priority={priority}
           loading={priority ? undefined : 'lazy'}
+          quality={85}
         />
 
         {/* Heart Icon - Top Right */}

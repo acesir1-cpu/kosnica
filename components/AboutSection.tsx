@@ -90,6 +90,7 @@ export default function AboutSection() {
                     style={{ objectPosition: 'center center' }}
                     priority
                     sizes="(max-width: 1024px) 100vw, 50vw"
+                    quality={90}
                   />
                 </div>
               </div>

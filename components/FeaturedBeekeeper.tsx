@@ -162,6 +162,7 @@ export default function FeaturedBeekeeper() {
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                   priority
+                  quality={90}
                 />
               </div>
               

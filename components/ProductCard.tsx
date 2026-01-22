@@ -177,6 +177,7 @@ export default function ProductCard({ product, selectedWeight, hideSellerAvatar 
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           priority={priority}
           loading={priority ? undefined : 'lazy'}
+          quality={85}
           onError={(e) => {
             // Try to use first image from images array if available
             const target = e.target as HTMLImageElement;
