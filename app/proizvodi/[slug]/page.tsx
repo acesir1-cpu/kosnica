@@ -291,7 +291,7 @@ export default function ProductDetailPage() {
             {/* Main Image */}
             <div className="relative flex-1 aspect-square rounded-xl overflow-hidden bg-white border-2 shadow-sm group" style={{ borderColor: 'var(--border-light)' }}>
               <Image
-                src={encodeURI(product.images[selectedImageIndex] || product.image)}
+                src={encodeURI(product.images && product.images.length > selectedImageIndex ? product.images[selectedImageIndex] : product.image)}
                 alt={product.name}
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -299,7 +299,7 @@ export default function ProductDetailPage() {
                 priority
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  // Try main product image as fallback
+                  // Always try main product image first as fallback
                   if (product.image && encodeURI(product.image) !== target.src) {
                     target.src = encodeURI(product.image);
                   } else if (product.images && product.images.length > 0) {
