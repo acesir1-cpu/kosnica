@@ -29,6 +29,10 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
 
+  // Performance optimizations
+  compress: true, // Enable gzip compression
+  poweredByHeader: false, // Remove X-Powered-By header
+
 
   // Output configuration
   // Using default output instead of standalone for better Render compatibility
