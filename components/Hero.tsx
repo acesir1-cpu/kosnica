@@ -76,8 +76,7 @@ export default function Hero() {
           className="object-cover"
           priority
           sizes="100vw"
-          quality={90}
-          unoptimized={false}
+          unoptimized
           onError={(e) => {
             console.error('Error loading image:', e);
           }}

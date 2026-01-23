@@ -6,15 +6,10 @@ const nextConfig: NextConfig = {
 
   // Image optimization configuration
   images: {
+    // Disable optimization for Render - it doesn't support Next.js image optimization
+    unoptimized: true,
+    // Keep formats for when optimization is enabled in future
     formats: ['image/avif', 'image/webp'],
-    // Enable optimization - only disable if explicitly set
-    unoptimized: process.env.DISABLE_IMAGE_OPTIMIZATION === 'true',
-    // Optimized device sizes for responsive images (reduced for better performance)
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-    // Optimized image sizes for different breakpoints
-    imageSizes: [16, 32, 48, 64, 96, 128, 256],
-    // Increase cache TTL for better performance
-    minimumCacheTTL: 31536000, // 1 year
     // Remote patterns for external images
     remotePatterns: [
       // Add remote image domains here if needed
@@ -23,9 +18,6 @@ const nextConfig: NextConfig = {
       //   hostname: 'example.com',
       // },
     ],
-    // Enable content security policy for images
-    dangerouslyAllowSVG: false,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 
   // Environment variables validation (optional)
