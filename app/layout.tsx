@@ -78,15 +78,9 @@ import Header from '@/components/Header';
 import { ToastProvider } from '@/components/ToastProvider';
 
 // Lazy load components that are not critical for initial render
-const ChatWidget = dynamic(() => import('@/components/ChatWidget'), {
-  ssr: false, // Chat widget doesn't need SSR
-});
-const CookiesBanner = dynamic(() => import('@/components/CookiesBanner'), {
-  ssr: false, // Cookies banner doesn't need SSR
-});
-const ScrollToTop = dynamic(() => import('@/components/ScrollToTop'), {
-  ssr: false, // Scroll to top doesn't need SSR
-});
+const ChatWidget = dynamic(() => import('@/components/ChatWidget'));
+const CookiesBanner = dynamic(() => import('@/components/CookiesBanner'));
+const ScrollToTop = dynamic(() => import('@/components/ScrollToTop'));
 
 export default function RootLayout({
   children,
